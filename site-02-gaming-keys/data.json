@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "G2A Marketplace",
+    "category": "Marketplace",
+    "rating": 4.5,
+    "price": "From $1.00",
+    "features": ["G2A Shield Protection", "Instant Delivery", "Global Keys"],
+    "bestFor": "AAA Titles",
+    "link": "#",
+    "badge": "Lowest Prices",
+    "discount": "5% Extra with Code"
+  },
+  {
+    "id": 2,
+    "name": "Kinguin",
+    "category": "Marketplace",
+    "rating": 4.4,
+    "price": "From $0.99",
+    "features": ["Buyer Protection", "Steam/Epic/Origin", "24/7 Support"],
+    "bestFor": "Indie Games",
+    "link": "#",
+    "badge": "Best Variety",
+    "discount": "Verified Partner"
+  },
+  {
+    "id": 3,
+    "name": "Eneba",
+    "category": "Marketplace",
+    "rating": 4.6,
+    "price": "From $1.50",
+    "features": ["Fastest Checkout", "Low Transaction Fees", "Mobile App"],
+    "bestFor": "Region-Locked Deals",
+    "link": "#",
+    "badge": "Safe Choice",
+    "discount": "Flash Deal Active"
+  }
+]

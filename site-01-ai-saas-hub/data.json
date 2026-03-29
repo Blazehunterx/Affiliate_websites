@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Jasper AI",
+    "category": "Copywriting",
+    "rating": 4.9,
+    "price": "$39/mo",
+    "features": ["Blog Posts", "Ad Copy", "SEO Optimization"],
+    "bestFor": "Enterprises",
+    "link": "#",
+    "badge": "Best Overall",
+    "discount": "20% OFF Applied"
+  },
+  {
+    "id": 2,
+    "name": "Copy.ai",
+    "category": "Copywriting",
+    "rating": 4.7,
+    "price": "$0 - $36/mo",
+    "features": ["Free Forever Tier", "Workflow Automation", "Social Media"],
+    "bestFor": "Social Media",
+    "link": "#",
+    "badge": "Best Free Tier",
+    "discount": "Limited Time Bonus"
+  },
+  {
+    "id": 3,
+    "name": "Surfer SEO",
+    "category": "SEO",
+    "rating": 4.8,
+    "price": "$89/mo",
+    "features": ["Content Editor", "Keyword Research", "Audit"],
+    "bestFor": "SEO Experts",
+    "link": "#",
+    "badge": "SEO Choice",
+    "discount": "Exclusive Partner Deal"
+  }
+]

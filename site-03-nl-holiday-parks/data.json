@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Center Parcs NL",
+    "category": "Holiday Park",
+    "rating": 4.8,
+    "price": "From €199",
+    "features": ["Aqua Mundo Waterpark", "Market Dome", "Nature Activities"],
+    "bestFor": "Families",
+    "link": "#",
+    "badge": "Premium Choice",
+    "discount": "Last Minute: 25% OFF"
+  },
+  {
+    "id": 2,
+    "name": "Landal GreenParks",
+    "category": "Holiday Park",
+    "rating": 4.7,
+    "price": "From €149",
+    "features": ["Forest Lodges", "Sustainable Stay", "Outdoor Play"],
+    "bestFor": "Nature Lovers",
+    "link": "#",
+    "badge": "Best Value",
+    "discount": "Summer Booking Open"
+  },
+  {
+    "id": 3,
+    "name": "Roompot",
+    "category": "Holiday Park",
+    "rating": 4.6,
+    "price": "From €129",
+    "features": ["Beach Resorts", "Kids Club", "Bike Rentals"],
+    "bestFor": "Budget Friendly",
+    "link": "#",
+    "badge": "Coastal Pick",
+    "discount": "Low Deposit Deal"
+  }
+]

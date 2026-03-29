@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Iams Premium Pet Food",
+    "category": "Nutrition",
+    "rating": 4.8,
+    "price": "From $29.99",
+    "features": ["Natural Ingredients", "Tailored Nutrition", "Vet Recommended"],
+    "bestFor": "Growing Pups",
+    "link": "#",
+    "badge": "Top Pick",
+    "discount": "15% OFF First Order"
+  },
+  {
+    "id": 2,
+    "name": "ManyPets Insurance",
+    "category": "Insurance",
+    "rating": 4.9,
+    "price": "From $15/mo",
+    "features": ["90% Reimbursement", "Fast Claims", "No Hidden Fees"],
+    "bestFor": "Peace of Mind",
+    "link": "#",
+    "badge": "Best Value",
+    "discount": "1 Month Free Applied"
+  },
+  {
+    "id": 3,
+    "name": "Embark DNA Kit",
+    "category": "Tech",
+    "rating": 4.7,
+    "price": "$129",
+    "features": ["Breed Identification", "Health Screening", "Family Tree"],
+    "bestFor": "Curious Owners",
+    "link": "#",
+    "badge": "Editors Choice",
+    "discount": "$50 Coupon Inside"
+  }
+]

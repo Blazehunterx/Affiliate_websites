@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Herman Miller Embody",
+    "category": "Chairs",
+    "rating": 4.9,
+    "price": "$1,895",
+    "features": ["Pixelated Support", "Breathable Fabric", "Custom Ergonomics"],
+    "bestFor": "Back Health",
+    "link": "#",
+    "badge": "Premium King",
+    "discount": "$200 Voucher Code"
+  },
+  {
+    "id": 2,
+    "name": "Logitech MX Master 3S",
+    "category": "Peripherals",
+    "rating": 4.8,
+    "price": "$99",
+    "features": ["Quiet Clicks", "8K DPI Sensor", "Fast Scrolling"],
+    "bestFor": "Productivity",
+    "link": "#",
+    "badge": "Best Seller",
+    "discount": "Exclusive Partner Price"
+  },
+  {
+    "id": 3,
+    "name": "Fully Jarvis Desk",
+    "category": "Desks",
+    "rating": 4.7,
+    "price": "From $599",
+    "features": ["Standing Desk", "350lb Capacity", "Bamboo Top"],
+    "bestFor": "Standing Work",
+    "link": "#",
+    "badge": "Sturdy Choice",
+    "discount": "Holiday Sale: 10% OFF"
+  }
+]

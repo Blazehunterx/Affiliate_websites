@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Oura Ring Gen3",
+    "category": "Health",
+    "rating": 4.9,
+    "price": "$299",
+    "features": ["Sleep Tracking", "Heart Rate Trends", "Body Temperature"],
+    "bestFor": "Daily Monitoring",
+    "link": "#",
+    "badge": "The Original",
+    "discount": "$50 OFF Coupon Applied"
+  },
+  {
+    "id": 2,
+    "name": "Whoop 4.0",
+    "category": "Fitness",
+    "rating": 4.8,
+    "price": "From $30/mo",
+    "features": ["Strain Monitoring", "Recovery Metrics", "Screenless Design"],
+    "bestFor": "Athletes",
+    "link": "#",
+    "badge": "Best for Recovery",
+    "discount": "Free Band: Verified"
+  },
+  {
+    "id": 3,
+    "name": "Continuous Glucose Monitor (CGM)",
+    "category": "Health",
+    "rating": 4.7,
+    "price": "$80/mo",
+    "features": ["Real-time Levels", "Food Insights", "App Integration"],
+    "bestFor": "Metabolic Health",
+    "link": "#",
+    "badge": "Tech Forward",
+    "discount": "Exclusive Subscription Deal"
+  }
+]

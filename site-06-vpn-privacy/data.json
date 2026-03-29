@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "NordVPN",
+    "category": "Security",
+    "rating": 4.9,
+    "price": "From $3.29/mo",
+    "features": ["Double VPN", "No Logs Policy", "6000+ Servers"],
+    "bestFor": "High Security",
+    "link": "#",
+    "badge": "Most Popular",
+    "discount": "68% Summer Special"
+  },
+  {
+    "id": 2,
+    "name": "ExpressVPN",
+    "category": "Privacy",
+    "rating": 4.8,
+    "price": "From $6.67/mo",
+    "features": ["Military Encryption", "Super Fast Speeds", "Split Tunneling"],
+    "bestFor": "Streaming",
+    "link": "#",
+    "badge": "Fastest Speed",
+    "discount": "3 Months Free Deal"
+  },
+  {
+    "id": 3,
+    "name": "Surfshark",
+    "category": "Value",
+    "rating": 4.7,
+    "price": "From $2.19/mo",
+    "features": ["Unlimited Devices", "Malware Blocker", "Smart DNS"],
+    "bestFor": "Entire Family",
+    "link": "#",
+    "badge": "Best Value",
+    "discount": "82% OFF Lifetime Plan"
+  }
+]

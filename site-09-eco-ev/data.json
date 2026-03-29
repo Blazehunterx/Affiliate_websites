@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Segway Ninebot Max G2",
+    "category": "Mobility",
+    "rating": 4.8,
+    "price": "$899",
+    "features": ["45mi Range", "22mph Speed", "Hydraulic Suspension"],
+    "bestFor": "Commuters",
+    "link": "#",
+    "badge": "Best Overall",
+    "discount": "$100 OFF Seasonal Deal"
+  },
+  {
+    "id": 2,
+    "name": "Tesla Powerwall 3",
+    "category": "Solar",
+    "rating": 4.9,
+    "price": "From $11,500",
+    "features": ["Home Backup", "Solar Integration", "Smart App"],
+    "bestFor": "Sustainability",
+    "link": "#",
+    "badge": "Top Enterprise",
+    "discount": "Federal Tax Credit Alert"
+  },
+  {
+    "id": 3,
+    "name": "Ecoflow Delta Pro",
+    "category": "Power",
+    "rating": 4.7,
+    "price": "$3,299",
+    "features": ["Portable Station", "Fast Charging", "Expandable"],
+    "bestFor": "Off-Grid",
+    "link": "#",
+    "badge": "Best Portable",
+    "discount": "Exclusive Bundle: Verified"
+  }
+]
