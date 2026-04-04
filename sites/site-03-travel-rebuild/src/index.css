@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-travel-primary: #344E41;
+  --color-travel-secondary: #588157;
+  --color-travel-accent: #A3B18A;
+  --color-travel-bg: #FAF9F6;
+}
+
+@layer base {
+  body {
+    @apply bg-travel-bg text-travel-primary antialiased;
+  }
+}

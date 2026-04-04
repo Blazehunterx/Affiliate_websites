@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Revolut Global",
+    "category": "Banking",
+    "rating": 4.9,
+    "price": "Free Plan Available",
+    "features": ["Crypto Exchange", "Safe Shopping", "Global Transfers"],
+    "bestFor": "Travelers",
+    "link": "#",
+    "badge": "Global Leader",
+    "discount": "Free Metal Upgrade"
+  },
+  {
+    "id": 2,
+    "name": "YNAB (You Need A Budget)",
+    "category": "Budgeting",
+    "rating": 4.8,
+    "price": "$14.99/mo",
+    "features": ["Sync Every Bank", "Goal Tracking", "Ad-Free"],
+    "bestFor": "Total Control",
+    "link": "#",
+    "badge": "Best for Control",
+    "discount": "34 Days Free Trial"
+  },
+  {
+    "id": 3,
+    "name": "Curve Card",
+    "category": "Finance",
+    "rating": 4.6,
+    "price": "Free Setup",
+    "features": ["All Cards in One", "Go Back in Time", "Cashback Rewards"],
+    "bestFor": "Wallet Slimming",
+    "link": "#",
+    "badge": "The All-in-One",
+    "discount": "£10 Welcome Credit"
+  }
+]

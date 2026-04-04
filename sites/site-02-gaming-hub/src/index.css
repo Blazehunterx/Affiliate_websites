@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-game-bg: #0B0F19;
+  --color-game-card: #151B28;
+}
+
+@layer base {
+  body {
+    @apply bg-game-bg text-white antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl;
+  }
+}

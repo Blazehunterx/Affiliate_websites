@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fin-bg: #0B0F19;
+  --color-fin-card: #151B28;
+  --color-fin-accent: #10B981;
+}
+
+@layer base {
+  body {
+    @apply bg-fin-bg text-white antialiased;
+  }
+}

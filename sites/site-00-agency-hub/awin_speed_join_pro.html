@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awin Speed-Join Pro | Marvin Sluis Media Group</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(30, 41, 59, 0.6); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .card:hover { border-color: rgba(59, 130, 246, 0.5); transform: translateY(-2px); }
+        .btn-copy { background: #1e293b; border: 1px solid #334155; }
+        .btn-copy:active { background: #334155; }
+        .toast { position: fixed; bottom: 2rem; right: 2rem; display: none; z-index: 100; }
+    </style>
+</head>
+<body class="p-4 md:p-12">
+    <header class="max-w-7xl mx-auto mb-12 flex flex-col md:flex-row justify-between items-end gap-6 border-b border-slate-800 pb-8">
+        <div>
+            <h1 class="text-5xl font-black mb-4 uppercase tracking-tighter">Awin <span class="text-blue-500">Speed-Join</span> Pro</h1>
+            <p class="text-slate-400 max-w-xl">
+                Automated browser session restricted by 2FA. Use this Pro Dashboard to manually apply to all 100+ partners in record time.
+            </p>
+        </div>
+        <div class="glass p-6 rounded-2xl w-full md:w-96">
+            <h3 class="text-xs font-bold uppercase tracking-widest text-blue-400 mb-2">Global Promo Pitch</h3>
+            <p id="pitch" class="text-xs text-slate-300 mb-4 italic leading-relaxed">
+                "Marvin Sluis Media Group is a premium publisher network with 10 specialized hubs reaching over 100k monthly users in UK, NL, and DE. We wish to promote your brand on our authorized niche properties."
+            </p>
+            <button onclick="copyPitch()" class="w-full py-2 rounded-lg btn-copy text-xs font-bold uppercase tracking-wider hover:bg-slate-700 transition-colors">Copy Pitch to Clipboard</button>
+        </div>
+    </header>
+
+    <div id="grid" class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <!-- Dynically Populated -->
+    </div>
+
+    <div id="toast" class="toast glass px-6 py-3 rounded-full text-blue-400 font-bold border-blue-500/50">
+        Copied to clipboard! 🚀
+    </div>
+
+    <script>
+        const matchesByHub = {
+          "saas": [
+            { "id": 3, "name": "Awin" }, { "id": 295, "name": "Create" }, { "id": 897, "name": "Names.co.uk" }, { "id": 1006, "name": "The Safe Shop" }, { "id": 1757, "name": "UKHost4u" }, { "id": 6288, "name": "Fiverr Affiliates" }
+          ],
+          "pet": [
+            { "id": 2940, "name": "Zooplus.co.uk" }, { "id": 3379, "name": "Christies Direct" }, { "id": 6074, "name": "tails.com" }, { "id": 6960, "name": "Viovet" }, { "id": 8139, "name": "Zooplus NL" }
+          ],
+          "fintech": [
+            { "id": 3681, "name": "QuoteSearcher" }, { "id": 3790, "name": "RAC Insurance" }, { "id": 3932, "name": "The AA" }, { "id": 6290, "name": "Hiscox" }, { "id": 7856, "name": "The Bike Insurer" }
+          ],
+          "travel": [
+            { "id": 1015, "name": "Warner Hotels" }, { "id": 1586, "name": "Travelodge" }, { "id": 1738, "name": "Park Holidays" }, { "id": 2729, "name": "Opodo" }, { "id": 3317, "name": "Sykes Cottages" }
+          ],
+          "gaming": [
+             { "id": 1736, "name": "The Entertainer" }, { "id": 7567, "name": "Liberty Games" }, { "id": 8474, "name": "Gameduell NL" }, { "id": 8664, "name": "Zavvi NL" }, { "id": 11355, "name": "Computeruniverse DE" }
+          ],
+          "vpn": [
+             { "id": 9399, "name": "NordVPN DE" }, { "id": 15132, "name": "NORDVPN (US)" }, { "id": 11851, "name": "checkdomain DE" }, { "id": 12649, "name": "easyname DE" }
+          ],
+          "wfh": [
+             { "id": 260, "name": "Ink Factory" }, { "id": 2193, "name": "Office Stationery" }, { "id": 2562, "name": "MOO" }, { "id": 3326, "name": "Ryman" }
+          ],
+          "outdoor": [
+             { "id": 3549, "name": "Go Outdoors" }, { "id": 8522, "name": "Bever NL" }, { "id": 3636, "name": "Vertbaudet" }, { "id": 8058, "name": "Furniture in Fashion" }
+          ],
+          "smarthome": [
+             { "id": 797, "name": "Appliance City" }, { "id": 5238, "name": "The Range" }, { "id": 307, "name": "Cast In Style" }
+          ],
+          "aiproductivity": [
+             { "id": 11634, "name": "Wix.com" }, { "id": 19163, "name": "Canva" }, { "id": 13841, "name": "Zap-hosting DE" }
+          ]
+        };
+
+        const grid = document.getElementById('grid');
+        function copyPitch() {
+            const text = document.getElementById('pitch').innerText;
+            const el = document.createElement('textarea');
+            el.value = text;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+            
+            const toast = document.getElementById('toast');
+            toast.style.display = 'block';
+            setTimeout(() => toast.style.display = 'none', 2000);
+        }
+
+        Object.entries(matchesByHub).forEach(([hub, programs]) => {
+            const col = document.createElement('div');
+            col.className = 'space-y-4 mb-12';
+            col.innerHTML = `<h2 class="text-xs font-black uppercase tracking-widest text-slate-500 mb-6 border-l-4 border-blue-500 pl-3">${hub} Portfolio</h2>`;
+            
+            programs.forEach(p => {
+                const card = document.createElement('div');
+                card.className = 'glass p-4 rounded-xl card transition-all';
+                card.innerHTML = `
+                    <div class="text-sm font-bold mb-3 truncate" title="${p.name}">${p.name}</div>
+                    <div class="flex gap-2">
+                        <a href="https://ui.awin.com/awin/frontend/publisher-directory/advertiser-profile/${p.id}" target="_blank" class="flex-1 text-center py-2 rounded-lg bg-blue-600 text-[10px] font-bold uppercase tracking-wider hover:bg-blue-500 transition-colors">Join Page</a>
+                        <button onclick="copyPitch()" class="px-3 py-2 rounded-lg btn-copy hover:border-blue-400 transition-all text-xs">📋</button>
+                    </div>
+                `;
+                col.appendChild(card);
+            });
+            grid.appendChild(col);
+        });
+    </script>
+</body>
+</html>

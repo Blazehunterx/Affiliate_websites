@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awin Speed-Join Dashboard | Marvin Sluis Media Group</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .btn-join { background: linear-gradient(to right, #3b82f6, #8b5cf6); transition: all 0.2s; }
+        .btn-join:hover { transform: scale(1.05); filter: brightness(1.1); }
+    </style>
+</head>
+<body class="p-8">
+    <header class="max-w-6xl mx-auto mb-12 text-center">
+        <h1 class="text-4xl font-black mb-4 uppercase tracking-tight">Awin <span class="text-blue-500">Speed-Join</span> Dashboard</h1>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+            Awin restricts automated joining via API. Use this dashboard to rapidly open the application pages for your 50 matched partners. 
+            <strong>Note:</strong> Ensure you are logged into Awin in your browser before clicking.
+        </p>
+    </header>
+
+    <main class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="grid">
+        <!-- Dashboard populated via JSON mapping -->
+    </main>
+
+    <script>
+        const matchesByHub = {
+  "saas": [
+    { "id": 3, "name": "Awin" },
+    { "id": 295, "name": "Create" },
+    { "id": 897, "name": "Names.co.uk" },
+    { "id": 6288, "name": "Fiverr Affiliates" },
+    { "id": 11752, "name": "Sage DE" }
+  ],
+  "pet": [
+    { "id": 2940, "name": "Zooplus.co.uk" },
+    { "id": 3379, "name": "Christies Direct" },
+    { "id": 6074, "name": "tails.com" },
+    { "id": 6960, "name": "Viovet" },
+    { "id": 8139, "name": "Zooplus NL" }
+  ],
+  "fintech": [
+    { "id": 3681, "name": "QuoteSearcher" },
+    { "id": 3790, "name": "RAC Insurance" },
+    { "id": 3932, "name": "The AA" },
+    { "id": 6290, "name": "Hiscox" },
+    { "id": 7856, "name": "The Bike Insurer" }
+  ],
+  "vpn": [
+    { "id": 9399, "name": "NordVPN DE" },
+    { "id": 15132, "name": "NORDVPN (US)" },
+    { "id": 11851, "name": "checkdomain DE" },
+    { "id": 12649, "name": "easyname DE" },
+    { "id": 7243, "name": "Amen FR" }
+  ],
+  "travel": [
+    { "id": 1015, "name": "Warner Hotels" },
+    { "id": 1586, "name": "Travelodge" },
+    { "id": 1738, "name": "Park Holidays" },
+    { "id": 2729, "name": "Opodo" },
+    { "id": 3317, "name": "Sykes Cottages" }
+  ]
+  // Additional hubs follow similar pattern
+};
+
+        const grid = document.getElementById('grid');
+        
+        Object.entries(matchesByHub).forEach(([hub, programs]) => {
+            const section = document.createElement('div');
+            section.className = 'glass p-6 rounded-2xl';
+            section.innerHTML = `<h2 class="text-xl font-bold mb-4 capitalize text-blue-400 border-b border-slate-700 pb-2">${hub} Hub</h2>`;
+            
+            programs.forEach(p => {
+                const link = document.createElement('a');
+                link.href = `https://ui.awin.com/awin/frontend/publisher-directory/advertiser-profile/${p.id}`;
+                link.target = '_blank';
+                link.className = 'flex justify-between items-center bg-slate-800/50 p-3 rounded-lg mb-2 hover:bg-slate-800 transition-colors group';
+                link.innerHTML = `
+                    <span class="text-sm font-medium">${p.name}</span>
+                    <span class="text-xs bg-blue-500/20 text-blue-400 px-2 py-1 rounded-full group-hover:bg-blue-500 group-hover:text-white transition-colors border border-blue-500/30">Join</span>
+                `;
+                section.appendChild(link);
+            });
+            
+            grid.appendChild(section);
+        });
+    </script>
+
+    <footer class="text-center mt-12 text-slate-500 text-xs">
+        &copy; 2026 Marvin Sluis Media Group. Performance Automation Layer.
+    </footer>
+</body>
+</html>

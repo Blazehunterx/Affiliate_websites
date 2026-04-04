@@ -1,0 +1,266 @@
+{
+  "joined": [
+    {
+      "id": 295,
+      "name": "Create",
+      "displayUrl": "https://www.create.net"
+    },
+    {
+      "id": 1757,
+      "name": "UKHost4u",
+      "displayUrl": "https://www.ukhost4u.com/"
+    },
+    {
+      "id": 61655,
+      "name": "Back to the Office",
+      "displayUrl": "https://www.backtotheoffice.co.uk/"
+    },
+    {
+      "id": 112976,
+      "name": "Brisks Outdoors",
+      "displayUrl": "https://www.brisks.co.uk/"
+    }
+  ],
+  "pending": [
+    {
+      "id": 3,
+      "name": "Awin",
+      "displayUrl": "https://www.awin.com"
+    },
+    {
+      "id": 260,
+      "name": "Ink Factory",
+      "displayUrl": "https://www.inkfactory.com"
+    },
+    {
+      "id": 307,
+      "name": "Cast In Style",
+      "displayUrl": "https://www.castinstyle.co.uk"
+    },
+    {
+      "id": 797,
+      "name": "Appliance City",
+      "displayUrl": "https://www.appliancecity.co.uk"
+    },
+    {
+      "id": 897,
+      "name": "Names.co.uk",
+      "displayUrl": "https://www.names.co.uk/"
+    },
+    {
+      "id": 1006,
+      "name": "The Safe Shop",
+      "displayUrl": "https://www.safe.co.uk"
+    },
+    {
+      "id": 1015,
+      "name": "Warner Leisure Hotels",
+      "displayUrl": "https://www.warnerleisurehotels.co.uk"
+    },
+    {
+      "id": 1586,
+      "name": "Travelodge",
+      "displayUrl": "https://www.travelodge.co.uk"
+    },
+    {
+      "id": 1736,
+      "name": "The Entertainer",
+      "displayUrl": "https://www.thetoyshop.com"
+    },
+    {
+      "id": 1738,
+      "name": "Park Holidays UK",
+      "displayUrl": "https://www.parkholidays.com"
+    },
+    {
+      "id": 2193,
+      "name": "Office Stationery",
+      "displayUrl": "https://www.officestationery.co.uk/"
+    },
+    {
+      "id": 2549,
+      "name": "Zavvi UK",
+      "displayUrl": "https://www.zavvi.com"
+    },
+    {
+      "id": 2562,
+      "name": "MOO",
+      "displayUrl": "https://www.moo.com/uk/"
+    },
+    {
+      "id": 2729,
+      "name": "Opodo",
+      "displayUrl": "https://www.opodo.co.uk/"
+    },
+    {
+      "id": 2940,
+      "name": "Zooplus.co.uk",
+      "displayUrl": "https://www.zooplus.co.uk/"
+    },
+    {
+      "id": 3317,
+      "name": "Sykes Holiday Cottages",
+      "displayUrl": "https://www.sykescottages.co.uk"
+    },
+    {
+      "id": 3326,
+      "name": "Ryman",
+      "displayUrl": "https://www.ryman.co.uk/"
+    },
+    {
+      "id": 3379,
+      "name": "Christies Direct",
+      "displayUrl": "https://www.christiesdirect.com"
+    },
+    {
+      "id": 3549,
+      "name": "Go Outdoors",
+      "displayUrl": "https://www.gooutdoors.co.uk"
+    },
+    {
+      "id": 3636,
+      "name": "Vertbaudet",
+      "displayUrl": "https://www.vertbaudet.co.uk"
+    },
+    {
+      "id": 3681,
+      "name": "QuoteSearcher",
+      "displayUrl": "https://www.quotesearcher.co.uk"
+    },
+    {
+      "id": 3944,
+      "name": "The AA - European Breakdown",
+      "displayUrl": "https://www.theaa.com/breakdown-cover/european"
+    },
+    {
+      "id": 5238,
+      "name": "The Range",
+      "displayUrl": "http://www.therange.co.uk"
+    },
+    {
+      "id": 6074,
+      "name": "tails.com",
+      "displayUrl": "https://tails.com/gb/lp/aff-20-off-first-box/?pc=MTQUL8"
+    },
+    {
+      "id": 6288,
+      "name": "Fiverr Affiliates (Global Affiliate Program)",
+      "displayUrl": "https://www.fiverr.com"
+    },
+    {
+      "id": 6290,
+      "name": "Hiscox Underwriting Group Services Ltd",
+      "displayUrl": "https://www.hiscox.co.uk"
+    },
+    {
+      "id": 6960,
+      "name": "Viovet",
+      "displayUrl": "https://www.viovet.co.uk"
+    },
+    {
+      "id": 7567,
+      "name": "Liberty Games",
+      "displayUrl": "https://www.libertygames.co.uk"
+    },
+    {
+      "id": 7856,
+      "name": "The Bike Insurer",
+      "displayUrl": "https://www.thebikeinsurer.co.uk"
+    },
+    {
+      "id": 8058,
+      "name": "Furniture in Fashion",
+      "displayUrl": "https://www.furnitureinfashion.net"
+    },
+    {
+      "id": 8139,
+      "name": "Zooplus NL - BE",
+      "displayUrl": "https://www.zooplus.nl"
+    },
+    {
+      "id": 8474,
+      "name": "Gameduell NL",
+      "displayUrl": "https://www.gameduell.nl"
+    },
+    {
+      "id": 8522,
+      "name": "Bever NL",
+      "displayUrl": "https://www.bever.nl"
+    },
+    {
+      "id": 8609,
+      "name": "GameDuell DE",
+      "displayUrl": "http://www.gameduell.de"
+    },
+    {
+      "id": 8664,
+      "name": "Zavvi NL",
+      "displayUrl": "https://www.zavvi.nl"
+    },
+    {
+      "id": 9133,
+      "name": "Opodo DE",
+      "displayUrl": "https://www.opodo.de/"
+    },
+    {
+      "id": 9298,
+      "name": "Moo DE",
+      "displayUrl": "https://www.moo.com/de/"
+    },
+    {
+      "id": 9399,
+      "name": "NordVPN DE",
+      "displayUrl": "http://nordvpn.com/de"
+    },
+    {
+      "id": 10547,
+      "name": "Zavvi DE",
+      "displayUrl": "https://www.zavvi.de/"
+    },
+    {
+      "id": 11355,
+      "name": "Computeruniverse DE",
+      "displayUrl": "https://www.computeruniverse.net"
+    },
+    {
+      "id": 11730,
+      "name": "Vertbaudet DE",
+      "displayUrl": "https://vertbaudet.de"
+    },
+    {
+      "id": 11851,
+      "name": "checkdomain DE",
+      "displayUrl": "https://www.checkdomain.de/"
+    },
+    {
+      "id": 12159,
+      "name": "Office Monster",
+      "displayUrl": "https://www.officemonster.co.uk"
+    },
+    {
+      "id": 12649,
+      "name": "easyname DE",
+      "displayUrl": "https://www.easyname.com/de"
+    },
+    {
+      "id": 13686,
+      "name": "tink DE",
+      "displayUrl": "https://www.tink.de"
+    },
+    {
+      "id": 13787,
+      "name": "Lexware Office DE",
+      "displayUrl": "https://go.lexware.de/awin"
+    },
+    {
+      "id": 13841,
+      "name": "Zap-hosting DE",
+      "displayUrl": "https://zap-hosting.com"
+    },
+    {
+      "id": 77124,
+      "name": "Shellfire VPN DE",
+      "displayUrl": "https://www.shellfire.de/"
+    }
+  ]
+}

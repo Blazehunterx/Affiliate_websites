@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Skillshare Annual",
+    "category": "Creativity",
+    "rating": 4.8,
+    "price": "From $13.99/mo",
+    "features": ["Unlimited Classes", "Creative Projects", "Offline View"],
+    "bestFor": "Designers",
+    "link": "#",
+    "badge": "Best for Skills",
+    "discount": "30 Days Free Applied"
+  },
+  {
+    "id": 2,
+    "name": "Coursera Plus",
+    "category": "Education",
+    "rating": 4.9,
+    "price": "$59/mo",
+    "features": ["University Certificates", "7000+ Courses", "Career Growth"],
+    "bestFor": "Professional Certs",
+    "link": "#",
+    "badge": "Academic Choice",
+    "discount": "Financial Aid Available"
+  },
+  {
+    "id": 3,
+    "name": "Masterclass Series",
+    "category": "Knowledge",
+    "rating": 4.7,
+    "price": "$15/mo",
+    "features": ["Celeb Instructors", "Cinematic Quality", "Mobile Viewing"],
+    "bestFor": "Inspiration",
+    "link": "#",
+    "badge": "Premium Quality",
+    "discount": "Buy 1 Give 1 Free"
+  }
+]
