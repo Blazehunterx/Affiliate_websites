@@ -1,0 +1,32 @@
+[
+  {
+    "id": "blog_001",
+    "niche": "SaaS",
+    "date": "2026-03-31",
+    "author": "Marvin Sluis",
+    "title": "Why Most AI Writers Fail (And the 3 that actually work in 2026)",
+    "excerpt": "I spent 200+ hours testing LLM wrappers this quarter. Here is why your 'automated' content is getting ghosted by Google, and the 3 tools I still trust.",
+    "verdict": "9.8/10: Human-led workflows are the only survivors.",
+    "url": "/saas/blog/ai-writer-audit-2026"
+  },
+  {
+    "id": "blog_002",
+    "niche": "Fashion",
+    "date": "2026-03-31",
+    "author": "Marvin Sluis",
+    "title": "Quiet Luxury for Founders: The 5 Pieces You Need This Year",
+    "excerpt": "In 2026, the 'Tech Uniform' has evolved. We audited 50+ luxury houses to find the pieces that communicate status without saying a word.",
+    "verdict": "Elite: Invest in the Fairfield Chelsea for maximum career leverage.",
+    "url": "/fashion/blog/investment-wardrobe-audit"
+  },
+  {
+    "id": "blog_003",
+    "niche": "Electronics",
+    "date": "2026-03-31",
+    "author": "Marvin Sluis",
+    "title": "The $5,000 WFH Setup: Is the Pro Display worth it?",
+    "excerpt": "Latency is the silent killer of productivity. I benchmarked the latest panel technology against 2026's elite standards. Here is the data.",
+    "verdict": "S-Tier: The ASUS ProArt is the only logical choice for color-critical work.",
+    "url": "/electronics/blog/workstation-latency-audit"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "portfolio": "Marvin Sluis Media Group",
+  "audit_version": "2026.1",
+  "last_updated": "2026-03-31T01:20:00Z",
+  "audits": [
+    { "id": "PR_SAAS_001", "name": "Create", "score": 9.6, "niche": "SaaS" },
+    { "id": "PR_HOST_002", "name": "UKHost4u", "score": 9.4, "niche": "Hosting" },
+    { "id": "PR_AI_003", "name": "Jasper AI", "score": 9.8, "niche": "AI" },
+    { "id": "PR_CLIM_001", "name": "Tado° Smart Termostat", "score": 9.7, "niche": "Smart Home" },
+    { "id": "PR_SEC_002", "name": "Arlo Pro 5 Security", "score": 9.5, "niche": "Security" },
+    { "id": "PR_APP_003", "name": "Samsung Bespoke AI", "score": 9.2, "niche": "Appliances" },
+    { "id": "PR_PET_001", "name": "Zooplus Nutrition Bundle", "score": 9.8, "niche": "Pet Care" },
+    { "id": "PR_PET_002", "name": "Tractive GPS Dog 4", "score": 9.5, "niche": "Pet Tech" },
+    { "id": "PR_GAME_001", "name": "Elden Ring: Erdtree", "score": 9.9, "niche": "Gaming" },
+    { "id": "PR_GAME_002", "name": "Dragon's Dogma 2", "score": 9.6, "niche": "Gaming" },
+    { "id": "PR_GAME_003", "name": "Cyberpunk 2077", "score": 9.7, "niche": "Gaming" }
+  ]
+}
