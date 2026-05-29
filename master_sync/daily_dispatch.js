@@ -5,7 +5,9 @@
 
 const fs = require('fs');
 const { createClient } = require('@supabase/supabase-js');
-const { prepareSocialPost } = require('./social_pulse_x');
+// const { prepareSocialPost } = require('./social_pulse_x');
+const { postPin } = require('./pinterest_auto_pilot');
+const { forceIndexURL } = require('./google_indexer');
 const { PRODUCT_MATRIX } = require('./product_matrix');
 
 const SUPABASE_URL = 'https://zaqkctlrvebulnbvirzl.supabase.co';
@@ -120,24 +122,74 @@ async function runDailyDispatch() {
 
             if (supabase) {
                 const { error } = await supabase.from('hubs_content').insert([dispatch]);
-                if (!error) console.log(`✅ [HIGH INTENT] ${product.name} Live at /audit/${dispatch.slug}`);
-                else console.error(`❌ ${product.name}: ${error.message}`);
+                if (!error) {
+                    console.log(`✅ [HIGH INTENT] ${product.name} Live at /audit/${dispatch.slug}`);
+                    
+                    // --- GOOGLE INDEXING PUSH ---
+                    const fullUrl = `https://marvinsluis-media.pages.dev/audit/${dispatch.slug}`;
+                    await forceIndexURL(fullUrl);
+                } else {
+                    console.error(`❌ ${product.name}: ${error.message}`);
+                }
             }
 
-            await prepareSocialPost(dispatch);
+            // Social Pulse Disabled (Trial Status)
+            // await prepareSocialPost(dispatch);
+            await postPin(dispatch);
             await new Promise(r => setTimeout(r, 100)); // Velocity Boost
         }
     }
 
     // --- SEO & DEPLOYMENT SYNC ---
-    console.log("🔄 [SYNC] Updating Sitemap & Deploying to Edge...");
+    console.log("[SYNC] Updating Sitemap, Compiling SSG and Deploying via Git...");
     try {
-        execSync('node generate_dynamic_sitemap.js', { stdio: 'inherit' });
-        execSync('npx wrangler pages deploy ./ --project-name marvinsluis-media', { stdio: 'inherit' });
-        console.log("🚀 [SYSTEM] Search Dominance v3.0 - Fully Synced to Global Network.");
+        const path = require('path');
+        
+        // Execute generate_dynamic_sitemap.js in its own directory
+        execSync('node generate_dynamic_sitemap.js', { cwd: __dirname, stdio: 'inherit' });
+        
+        // Compile new reviews
+        execSync('node ../ssg_prerender.js', { cwd: __dirname, stdio: 'inherit' });
+        
+        // Replicate to dist
+        const copyScriptPath = path.join(__dirname, '../../../../scratch/copy_to_dist.py');
+        execSync(`python "${copyScriptPath}"`, { stdio: 'inherit' });
+        
+        // Stage, commit and push to trigger Cloudflare edge deploy
+        const rootDir = path.join(__dirname, '../..');
+        execSync('git add master_sync', { cwd: rootDir, stdio: 'inherit' });
+        execSync('git commit -m "auto: Daily dispatch update" || true', { cwd: rootDir, stdio: 'inherit' });
+        execSync('git push', { cwd: rootDir, stdio: 'inherit' });
+        
+        console.log("[SYSTEM] Search Dominance v3.0 - Fully Synced to Global Network via Git Push.");
     } catch (e) {
-        console.error("❌ [SYNC ERROR] " + e.message);
+        console.error("[SYNC ERROR] " + e.message);
     }
 }
 
-runDailyDispatch();
+async function startAutonomousEngine() {
+    console.log("💎 [AUTONOMOUS MODE] Marvin Media Shopping OS: ENGAGED.");
+    while (true) {
+        try {
+            await runDailyDispatch();
+            console.log("\n💤 [SLEEP] Dispatch cycle complete. Next run in 4 hours...");
+            await new Promise(resolve => setTimeout(resolve, 4 * 60 * 60 * 1000));
+        } catch (e) {
+            console.error("🔥 [CRITICAL ERROR] Engine failure: " + e.message);
+            await new Promise(resolve => setTimeout(resolve, 60000)); // Retry in 1 min
+        }
+    }
+}
+
+if (process.argv.includes('--once') || process.env.ONCE === 'true') {
+    console.log("[AUTONOMOUS MODE] Running daily dispatch loop exactly once...");
+    runDailyDispatch().then(() => {
+        console.log("o. Single dispatch cycle complete.");
+        process.exit(0);
+    }).catch(e => {
+        console.error("[CRITICAL ERROR] Single dispatch cycle failed:", e);
+        process.exit(1);
+    });
+} else {
+    startAutonomousEngine();
+}
