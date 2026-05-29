@@ -63,6 +63,12 @@ async function compileAll() {
     }
 
     console.log("\n📦 Running Static Site Generation (SSG) Pre-renderer..."); try { execSync("node ssg_prerender.js", { cwd: BASE_PATH, stdio: "inherit" }); } catch (err) { console.error("❌ SSG Pre-renderer failed:", err.message); } console.log("\n🏁 [FINAL] Master Sync Distribution Ready in /master_sync");
+    try {
+        console.log("\n📦 Replicating compiled hubs to dist folder...");
+        execSync("node copy_to_dist.js", { cwd: BASE_PATH, stdio: "inherit" });
+    } catch (err) {
+        console.error("❌ Replication to dist failed:", err.message);
+    }
 }
 
 compileAll();
