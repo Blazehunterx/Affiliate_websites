@@ -1,0 +1,60 @@
+{
+  "publisherId": "1595486",
+  "joinedCount": 1588,
+  "feeds": {
+    "error": "exception",
+    "description": "Not Found (404 NOT_FOUND)"
+  },
+  "samplePrograms": [
+    {
+      "id": 65,
+      "name": "Pharmacy2U Online Doctor",
+      "category": "United Kingdom"
+    },
+    {
+      "id": 129,
+      "name": "InterRose",
+      "category": "United Kingdom"
+    },
+    {
+      "id": 400,
+      "name": "The Whisky Exchange",
+      "category": "United Kingdom"
+    },
+    {
+      "id": 488,
+      "name": "Bunches.co.uk",
+      "category": "United Kingdom"
+    },
+    {
+      "id": 496,
+      "name": "Tooled Up",
+      "category": "United Kingdom"
+    },
+    {
+      "id": 736,
+      "name": "Cadbury Gifts Direct",
+      "category": "United Kingdom"
+    },
+    {
+      "id": 797,
+      "name": "Appliance City",
+      "category": "United Kingdom"
+    },
+    {
+      "id": 808,
+      "name": "CartridgeMonkey",
+      "category": "United Kingdom"
+    },
+    {
+      "id": 851,
+      "name": "TV Cables",
+      "category": "United Kingdom"
+    },
+    {
+      "id": 899,
+      "name": "Fitness Options",
+      "category": "United Kingdom"
+    }
+  ]
+}

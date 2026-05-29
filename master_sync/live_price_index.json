@@ -1,0 +1,72 @@
+{
+  "Tractive": {
+    "lastChecked": "2026-04-03T03:21:13.150Z",
+    "status": "Feed Restricted",
+    "lastPrice": 76.13,
+    "previousPrice": 56.54,
+    "isPriceDrop": false,
+    "dropPercentage": 0,
+    "sampleData": "Error 404: Not Found (404 NOT_FOUND)",
+    "priceHistory": [
+      56.54,
+      56.54,
+      76.13
+    ]
+  },
+  "Jasper": {
+    "lastChecked": "2026-04-03T03:21:13.476Z",
+    "status": "Feed Restricted",
+    "lastPrice": 1.85,
+    "previousPrice": 77.68,
+    "isPriceDrop": true,
+    "dropPercentage": 97.62,
+    "sampleData": "Error 404: Not Found (404 NOT_FOUND)",
+    "priceHistory": [
+      77.68,
+      77.68,
+      1.85
+    ]
+  },
+  "NordVPN": {
+    "lastChecked": "2026-04-03T03:21:13.737Z",
+    "status": "Feed Restricted",
+    "lastPrice": 47.57,
+    "previousPrice": 99.99,
+    "isPriceDrop": true,
+    "dropPercentage": 52.43,
+    "sampleData": "Error 404: Not Found (404 NOT_FOUND)",
+    "priceHistory": [
+      71.93,
+      71.93,
+      47.57
+    ]
+  },
+  "ApplianceCity": {
+    "lastChecked": "2026-04-03T03:21:14.053Z",
+    "status": "Feed Restricted",
+    "lastPrice": 71.37,
+    "previousPrice": 29.93,
+    "isPriceDrop": false,
+    "dropPercentage": 0,
+    "sampleData": "Error 404: Not Found (404 NOT_FOUND)",
+    "priceHistory": [
+      29.93,
+      29.93,
+      71.37
+    ]
+  },
+  "Arlo": {
+    "lastChecked": "2026-04-03T03:21:14.346Z",
+    "status": "Feed Restricted",
+    "lastPrice": 98.57,
+    "previousPrice": 78.85,
+    "isPriceDrop": false,
+    "dropPercentage": 0,
+    "sampleData": "Error 404: Not Found (404 NOT_FOUND)",
+    "priceHistory": [
+      78.85,
+      78.85,
+      98.57
+    ]
+  }
+}

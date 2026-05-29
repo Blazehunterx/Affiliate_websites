@@ -1,0 +1,1072 @@
+{
+  "saas": [
+    {
+      "id": 3,
+      "name": "Awin",
+      "sector": "Business Services (B2B)",
+      "region": "United Kingdom",
+      "url": "https://www.awin.com"
+    },
+    {
+      "id": 295,
+      "name": "Create",
+      "sector": "Web Hosting",
+      "region": "United Kingdom",
+      "url": "https://www.create.net"
+    },
+    {
+      "id": 897,
+      "name": "Names.co.uk",
+      "sector": "Business Services (B2B)",
+      "region": "United Kingdom",
+      "url": "https://www.names.co.uk/"
+    },
+    {
+      "id": 1006,
+      "name": "The Safe Shop",
+      "sector": "Business Services (B2B)",
+      "region": "United Kingdom",
+      "url": "https://www.safe.co.uk"
+    },
+    {
+      "id": 1757,
+      "name": "UKHost4u",
+      "sector": "Web Hosting",
+      "region": "United Kingdom",
+      "url": "https://www.ukhost4u.com/"
+    },
+    {
+      "id": 3911,
+      "name": "BSI",
+      "sector": "Business Services (B2B)",
+      "region": "United Kingdom",
+      "url": "https://knowledge.bsigroup.com/"
+    },
+    {
+      "id": 5915,
+      "name": "Safestore",
+      "sector": "Business Services (B2B)",
+      "region": "United Kingdom",
+      "url": "https://www.safestore.co.uk"
+    },
+    {
+      "id": 6072,
+      "name": "GRC Solutions",
+      "sector": "Business Services (B2B)",
+      "region": "United Kingdom",
+      "url": "https://uk.grcsolutions.io/"
+    },
+    {
+      "id": 6288,
+      "name": "Fiverr Affiliates (Global Affiliate Program)",
+      "sector": "Business Services (B2B)",
+      "region": "United States of America",
+      "url": "https://www.fiverr.com"
+    },
+    {
+      "id": 6941,
+      "name": "Super Cheap Signs (US)",
+      "sector": "Business Services (B2B)",
+      "region": "United States of America",
+      "url": "https://www.supercheapsigns.com"
+    },
+    {
+      "id": 7243,
+      "name": "Amen FR",
+      "sector": "Web Hosting",
+      "region": "France",
+      "url": "https://www.amen.fr/affiliates.html?PR=DAWI02"
+    },
+    {
+      "id": 8470,
+      "name": "Ziggo Zakelijk NL",
+      "sector": "Business Services (B2B)",
+      "region": "Netherlands",
+      "url": "http://www.ziggo.nl/zakelijk"
+    },
+    {
+      "id": 11089,
+      "name": "Nominalia ES",
+      "sector": "Web Hosting",
+      "region": "Spain",
+      "url": "http://www.nominalia.com"
+    },
+    {
+      "id": 11457,
+      "name": "goneo DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.goneo.de"
+    },
+    {
+      "id": 11752,
+      "name": "Sage DE",
+      "sector": "Business Services (B2B)",
+      "region": "Germany",
+      "url": "https://www.sage.com"
+    }
+  ],
+  "pet": [
+    {
+      "id": 2940,
+      "name": "Zooplus.co.uk",
+      "sector": "Pets & Pet Care",
+      "region": "United Kingdom",
+      "url": "https://www.zooplus.co.uk/"
+    },
+    {
+      "id": 3379,
+      "name": "Christies Direct",
+      "sector": "Pets & Pet Care",
+      "region": "United Kingdom",
+      "url": "https://www.christiesdirect.com"
+    },
+    {
+      "id": 6074,
+      "name": "tails.com",
+      "sector": "Pets & Pet Care",
+      "region": "United Kingdom",
+      "url": "https://tails.com/gb/lp/aff-20-off-first-box/?pc=MTQUL8"
+    },
+    {
+      "id": 6960,
+      "name": "Viovet",
+      "sector": "Pets & Pet Care",
+      "region": "United Kingdom",
+      "url": "https://www.viovet.co.uk"
+    },
+    {
+      "id": 7028,
+      "name": "PDSA",
+      "sector": "Charities",
+      "region": "United Kingdom",
+      "url": "https://www.pdsa.org.uk/pet-help-and-advice/pdsa-pet-insurance"
+    },
+    {
+      "id": 7262,
+      "name": "Lilys Kitchen",
+      "sector": "Pets & Pet Care",
+      "region": "United Kingdom",
+      "url": "https://www.lilyskitchen.co.uk"
+    },
+    {
+      "id": 7334,
+      "name": "Zooplus FR",
+      "sector": "Pets & Pet Care",
+      "region": "France",
+      "url": "https://www.zooplus.fr/?mkt_source=51849"
+    },
+    {
+      "id": 8139,
+      "name": "Zooplus NL - BE",
+      "sector": "Pets & Pet Care",
+      "region": "Netherlands",
+      "url": "https://www.zooplus.nl"
+    },
+    {
+      "id": 8597,
+      "name": "Schecker NL",
+      "sector": "Pets & Pet Care",
+      "region": "Netherlands",
+      "url": "http://www.schecker.nl"
+    },
+    {
+      "id": 9500,
+      "name": "zooplus IT",
+      "sector": "Pets & Pet Care",
+      "region": "Italy",
+      "url": "https://www.zooplus.it"
+    },
+    {
+      "id": 9664,
+      "name": "Bauzaar IT",
+      "sector": "Pets & Pet Care",
+      "region": "Italy",
+      "url": "https://www.bauzaar.it"
+    },
+    {
+      "id": 10180,
+      "name": "zoohit SI",
+      "sector": "Pets & Pet Care",
+      "region": "Germany",
+      "url": "https://www.zoohit.si"
+    },
+    {
+      "id": 10201,
+      "name": "zooplus CZ",
+      "sector": "Pets & Pet Care",
+      "region": "Czech Republic",
+      "url": "https://www.zoohit.cz/"
+    },
+    {
+      "id": 10237,
+      "name": "zooplus SK",
+      "sector": "Pets & Pet Care",
+      "region": "Czech Republic",
+      "url": "https://www.zoohit.sk"
+    },
+    {
+      "id": 10247,
+      "name": "zooplus PL",
+      "sector": "Pets & Pet Care",
+      "region": "Czech Republic",
+      "url": "https://www.zooplus.pl"
+    }
+  ],
+  "fintech": [
+    {
+      "id": 3622,
+      "name": "Coverwise.co.uk",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.coverwise.co.uk"
+    },
+    {
+      "id": 3681,
+      "name": "QuoteSearcher",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.quotesearcher.co.uk"
+    },
+    {
+      "id": 3790,
+      "name": "RAC",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.rac.co.uk/"
+    },
+    {
+      "id": 3932,
+      "name": "The AA - UK Breakdown",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.theaa.com/breakdown-cover/"
+    },
+    {
+      "id": 3944,
+      "name": "The AA - European Breakdown",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.theaa.com/breakdown-cover/european"
+    },
+    {
+      "id": 5338,
+      "name": "RAC European Breakdown Cover",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.rac.co.uk/breakdown-cover/european-breakdown-cover/get-a-quote/"
+    },
+    {
+      "id": 5441,
+      "name": "QDOS Breakdown",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.qdosbreakdown.co.uk"
+    },
+    {
+      "id": 6290,
+      "name": "Hiscox Underwriting Group Services Ltd",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.hiscox.co.uk"
+    },
+    {
+      "id": 6777,
+      "name": "Tinhat",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://tinhat.co.uk/"
+    },
+    {
+      "id": 7015,
+      "name": "Medical Travel insurance",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.medicaltravelinsurance.co.uk/"
+    },
+    {
+      "id": 7028,
+      "name": "PDSA",
+      "sector": "Charities",
+      "region": "United Kingdom",
+      "url": "https://www.pdsa.org.uk/pet-help-and-advice/pdsa-pet-insurance"
+    },
+    {
+      "id": 7856,
+      "name": "The Bike Insurer",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.thebikeinsurer.co.uk"
+    },
+    {
+      "id": 7857,
+      "name": "The Van Insurer",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.thevaninsurer.co.uk"
+    },
+    {
+      "id": 8067,
+      "name": "Insurefor Travel Insurance",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://www.insurefor.com/"
+    },
+    {
+      "id": 8068,
+      "name": "Insurefor Car Hire Excess Insurance",
+      "sector": "Insurance",
+      "region": "United Kingdom",
+      "url": "https://cdw.insurefor.com/"
+    }
+  ],
+  "vpn": [
+    {
+      "id": 295,
+      "name": "Create",
+      "sector": "Web Hosting",
+      "region": "United Kingdom",
+      "url": "https://www.create.net"
+    },
+    {
+      "id": 1757,
+      "name": "UKHost4u",
+      "sector": "Web Hosting",
+      "region": "United Kingdom",
+      "url": "https://www.ukhost4u.com/"
+    },
+    {
+      "id": 7243,
+      "name": "Amen FR",
+      "sector": "Web Hosting",
+      "region": "France",
+      "url": "https://www.amen.fr/affiliates.html?PR=DAWI02"
+    },
+    {
+      "id": 9399,
+      "name": "NordVPN DE",
+      "sector": "B2B Utility Services",
+      "region": "Germany",
+      "url": "http://nordvpn.com/de"
+    },
+    {
+      "id": 11089,
+      "name": "Nominalia ES",
+      "sector": "Web Hosting",
+      "region": "Spain",
+      "url": "http://www.nominalia.com"
+    },
+    {
+      "id": 11457,
+      "name": "goneo DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.goneo.de"
+    },
+    {
+      "id": 11851,
+      "name": "checkdomain DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.checkdomain.de/"
+    },
+    {
+      "id": 11854,
+      "name": "webgo DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.webgo.de"
+    },
+    {
+      "id": 12649,
+      "name": "easyname DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.easyname.com/de"
+    },
+    {
+      "id": 13324,
+      "name": "O2switch Hebergement web FR",
+      "sector": "Web Hosting",
+      "region": "France",
+      "url": "https://www.o2switch.fr"
+    },
+    {
+      "id": 13841,
+      "name": "Zap-hosting DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://zap-hosting.com"
+    },
+    {
+      "id": 14380,
+      "name": "1blu DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.1blu.de"
+    },
+    {
+      "id": 14393,
+      "name": "webtropia.com DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.webtropia.com/"
+    },
+    {
+      "id": 15132,
+      "name": "NORDVPN (US & CA)",
+      "sector": "Software Downloads",
+      "region": "United States of America",
+      "url": "https://nordvpn.com/special/deal/"
+    },
+    {
+      "id": 15380,
+      "name": "PlanetHoster FR",
+      "sector": "Web Hosting",
+      "region": "France",
+      "url": "https://www.planethoster.fr"
+    }
+  ],
+  "travel": [
+    {
+      "id": 741,
+      "name": "Catalink",
+      "sector": "Entertainment Superstore",
+      "region": "United Kingdom",
+      "url": "https://www.catalink.com"
+    },
+    {
+      "id": 1015,
+      "name": "Warner Leisure Hotels",
+      "sector": "Hotels & Accommodation",
+      "region": "United Kingdom",
+      "url": "https://www.warnerleisurehotels.co.uk"
+    },
+    {
+      "id": 1586,
+      "name": "Travelodge",
+      "sector": "Hotels & Accommodation",
+      "region": "United Kingdom",
+      "url": "https://www.travelodge.co.uk"
+    },
+    {
+      "id": 1738,
+      "name": "Park Holidays UK",
+      "sector": "Local Holidays",
+      "region": "United Kingdom",
+      "url": "https://www.parkholidays.com"
+    },
+    {
+      "id": 1963,
+      "name": "Macdonald Hotels",
+      "sector": "Hotels & Accommodation",
+      "region": "United Kingdom",
+      "url": "https://www.macdonaldhotels.co.uk"
+    },
+    {
+      "id": 2225,
+      "name": "Britannia Hotels",
+      "sector": "Hotels & Accommodation",
+      "region": "United Kingdom",
+      "url": "https://www.britanniahotels.com/"
+    },
+    {
+      "id": 2355,
+      "name": "Alfa Travel Ltd",
+      "sector": "Travel Agencies",
+      "region": "United Kingdom",
+      "url": "https://www.alfaholidays.co.uk"
+    },
+    {
+      "id": 2594,
+      "name": "BreakFree Holidays",
+      "sector": "Hotels & Accommodation",
+      "region": "United Kingdom",
+      "url": "https://www.breakfreeholidays.co.uk"
+    },
+    {
+      "id": 2671,
+      "name": "Best Western Hotels Great Britain",
+      "sector": "Hotels & Accommodation",
+      "region": "United Kingdom",
+      "url": "https://www.bestwestern.co.uk/"
+    },
+    {
+      "id": 2729,
+      "name": "Opodo",
+      "sector": "Travel Agencies",
+      "region": "United Kingdom",
+      "url": "https://www.opodo.co.uk/"
+    },
+    {
+      "id": 2918,
+      "name": "Pontins",
+      "sector": "Local Holidays",
+      "region": "United Kingdom",
+      "url": "https://www.pontins.com/"
+    },
+    {
+      "id": 3259,
+      "name": "Rail Discoveries",
+      "sector": "Travel Agencies",
+      "region": "United Kingdom",
+      "url": "https://www.raildiscoveries.com"
+    },
+    {
+      "id": 3317,
+      "name": "Sykes Holiday Cottages",
+      "sector": "Hotels & Accommodation",
+      "region": "United Kingdom",
+      "url": "https://www.sykescottages.co.uk"
+    },
+    {
+      "id": 3450,
+      "name": "QHotels",
+      "sector": "Hotels & Accommodation",
+      "region": "United Kingdom",
+      "url": "https://www.qhotels.co.uk"
+    },
+    {
+      "id": 3496,
+      "name": "Holiday Extras",
+      "sector": "Airport Parking & Transfers",
+      "region": "United Kingdom",
+      "url": "https://www.holidayextras.com"
+    }
+  ],
+  "gaming": [
+    {
+      "id": 1736,
+      "name": "The Entertainer",
+      "sector": "Toys & Games",
+      "region": "United Kingdom",
+      "url": "https://www.thetoyshop.com"
+    },
+    {
+      "id": 1902,
+      "name": "Baker Ross",
+      "sector": "Toys & Games",
+      "region": "United Kingdom",
+      "url": "https://www.bakerross.co.uk"
+    },
+    {
+      "id": 3810,
+      "name": "GB Posters",
+      "sector": "Toys & Games",
+      "region": "United Kingdom",
+      "url": "https://www.gbposters.com/"
+    },
+    {
+      "id": 5178,
+      "name": "TP Toys",
+      "sector": "Toys & Games",
+      "region": "United Kingdom",
+      "url": "https://www.tptoys.com/"
+    },
+    {
+      "id": 6154,
+      "name": "Baker Ross IE",
+      "sector": "Toys & Games",
+      "region": "Ireland",
+      "url": "https://www.bakerross.ie"
+    },
+    {
+      "id": 6617,
+      "name": "BARGAINMAX LIMITED",
+      "sector": "Toys & Games",
+      "region": "United Kingdom",
+      "url": "https://www.bargainmax.co.uk"
+    },
+    {
+      "id": 7228,
+      "name": "JigsawPuzzle.co.uk",
+      "sector": "Toys & Games",
+      "region": "United Kingdom",
+      "url": "https://www.jigsawpuzzle.co.uk/"
+    },
+    {
+      "id": 7567,
+      "name": "Liberty Games",
+      "sector": "Toys & Games",
+      "region": "United Kingdom",
+      "url": "https://www.libertygames.co.uk"
+    },
+    {
+      "id": 8474,
+      "name": "Gameduell NL",
+      "sector": "Online Gaming",
+      "region": "Netherlands",
+      "url": "https://www.gameduell.nl"
+    },
+    {
+      "id": 8609,
+      "name": "GameDuell DE",
+      "sector": "Online Gaming",
+      "region": "Germany",
+      "url": "http://www.gameduell.de"
+    },
+    {
+      "id": 8664,
+      "name": "Zavvi NL",
+      "sector": "Toys & Games",
+      "region": "Netherlands",
+      "url": "https://www.zavvi.nl"
+    },
+    {
+      "id": 9339,
+      "name": "alternate AT",
+      "sector": "Electronic Superstore",
+      "region": "Austria",
+      "url": "https://www.alternate.at"
+    },
+    {
+      "id": 11355,
+      "name": "Computeruniverse DE",
+      "sector": "Electronic Superstore",
+      "region": "Germany",
+      "url": "https://www.computeruniverse.net"
+    },
+    {
+      "id": 11438,
+      "name": "Puzzle DE",
+      "sector": "Toys & Games",
+      "region": "Germany",
+      "url": "https://www.puzzle.de"
+    },
+    {
+      "id": 12801,
+      "name": "Backwinkel DE",
+      "sector": "Toys & Games",
+      "region": "Germany",
+      "url": "https://www.backwinkel.de/"
+    }
+  ],
+  "wfh": [
+    {
+      "id": 260,
+      "name": "Ink Factory",
+      "sector": "Office Supplies",
+      "region": "United Kingdom",
+      "url": "https://www.inkfactory.com"
+    },
+    {
+      "id": 808,
+      "name": "CartridgeMonkey",
+      "sector": "Office Supplies",
+      "region": "United Kingdom",
+      "url": "https://www.cartridgemonkey.com"
+    },
+    {
+      "id": 1379,
+      "name": "Woodyatt Curtains",
+      "sector": "Furniture & Soft Furnishings",
+      "region": "United Kingdom",
+      "url": "https://www.woodyattcurtains.com/"
+    },
+    {
+      "id": 2193,
+      "name": "Office Stationery",
+      "sector": "Office Supplies",
+      "region": "United Kingdom",
+      "url": "https://www.officestationery.co.uk/"
+    },
+    {
+      "id": 2346,
+      "name": "UK Office Direct Limited",
+      "sector": "Office Supplies",
+      "region": "United Kingdom",
+      "url": "https://www.ukofficedirect.co.uk"
+    },
+    {
+      "id": 2562,
+      "name": "MOO",
+      "sector": "Office Supplies",
+      "region": "United Kingdom",
+      "url": "https://www.moo.com/uk/"
+    },
+    {
+      "id": 3326,
+      "name": "Ryman",
+      "sector": "Office Supplies",
+      "region": "United Kingdom",
+      "url": "https://www.ryman.co.uk/"
+    },
+    {
+      "id": 3659,
+      "name": "Cartridge People",
+      "sector": "Office Supplies",
+      "region": "United Kingdom",
+      "url": "https://www.cartridgepeople.com"
+    },
+    {
+      "id": 3682,
+      "name": "Poltronesofà at SCS",
+      "sector": "Furniture & Soft Furnishings",
+      "region": "United Kingdom",
+      "url": "http://www.scs.co.uk"
+    },
+    {
+      "id": 3774,
+      "name": "Euroffice",
+      "sector": "Office Supplies",
+      "region": "United Kingdom",
+      "url": "https://www.euroffice.co.uk"
+    },
+    {
+      "id": 4430,
+      "name": "Oak&More",
+      "sector": "Furniture & Soft Furnishings",
+      "region": "United Kingdom",
+      "url": "https://www.oakfurnituresuperstore.co.uk/"
+    },
+    {
+      "id": 5172,
+      "name": "Laybrook Ltd",
+      "sector": "Furniture & Soft Furnishings",
+      "region": "United Kingdom",
+      "url": "https://www.laybrook.com"
+    },
+    {
+      "id": 5238,
+      "name": "The Range",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "http://www.therange.co.uk"
+    },
+    {
+      "id": 5500,
+      "name": "Toner Giant",
+      "sector": "Office Supplies",
+      "region": "United Kingdom",
+      "url": "https://www.tonergiant.co.uk"
+    },
+    {
+      "id": 6200,
+      "name": "Instantprint",
+      "sector": "Office Supplies",
+      "region": "United Kingdom",
+      "url": "https://www.instantprint.co.uk"
+    }
+  ],
+  "outdoor": [
+    {
+      "id": 3027,
+      "name": "Simply Be",
+      "sector": "Womenswear",
+      "region": "United Kingdom",
+      "url": "https://www.simplybe.co.uk/"
+    },
+    {
+      "id": 3549,
+      "name": "Go Outdoors",
+      "sector": "Sportswear",
+      "region": "United Kingdom",
+      "url": "https://www.gooutdoors.co.uk"
+    },
+    {
+      "id": 3636,
+      "name": "Vertbaudet",
+      "sector": "Childrenswear",
+      "region": "United Kingdom",
+      "url": "https://www.vertbaudet.co.uk"
+    },
+    {
+      "id": 5032,
+      "name": "Ben Sherman",
+      "sector": "Menswear",
+      "region": "United Kingdom",
+      "url": "https://www.bensherman.co.uk/"
+    },
+    {
+      "id": 6016,
+      "name": "W Concept (US)",
+      "sector": "Clothing",
+      "region": "United States of America",
+      "url": "https://www.wconcept.com/"
+    },
+    {
+      "id": 8058,
+      "name": "Furniture in Fashion",
+      "sector": "Furniture & Soft Furnishings",
+      "region": "United Kingdom",
+      "url": "https://www.furnitureinfashion.net"
+    },
+    {
+      "id": 8522,
+      "name": "Bever NL",
+      "sector": "Sportswear",
+      "region": "Netherlands",
+      "url": "https://www.bever.nl"
+    },
+    {
+      "id": 9339,
+      "name": "alternate AT",
+      "sector": "Electronic Superstore",
+      "region": "Austria",
+      "url": "https://www.alternate.at"
+    },
+    {
+      "id": 10992,
+      "name": "casando DE",
+      "sector": "Home & Garden",
+      "region": "Germany",
+      "url": "https://www.casando.de"
+    },
+    {
+      "id": 11300,
+      "name": "OLPRO",
+      "sector": "Sports Equipment",
+      "region": "United Kingdom",
+      "url": "https://www.olproshop.com"
+    },
+    {
+      "id": 11445,
+      "name": "fashionette CH",
+      "sector": "Clothing Accessories",
+      "region": "Switzerland",
+      "url": "https://www.fashionette.ch"
+    },
+    {
+      "id": 11484,
+      "name": "Defshop DE",
+      "sector": "Clothing",
+      "region": "Germany",
+      "url": "https://www.def-shop.com"
+    },
+    {
+      "id": 11504,
+      "name": "fashionette DE",
+      "sector": "Clothing Accessories",
+      "region": "Germany",
+      "url": "https://www.fashionette.de/"
+    },
+    {
+      "id": 11590,
+      "name": "Breuninger DE",
+      "sector": "Clothing",
+      "region": "Germany",
+      "url": "https://www.breuninger.com"
+    },
+    {
+      "id": 11662,
+      "name": "Hapare Outdoorland DE",
+      "sector": "Clothing",
+      "region": "Germany",
+      "url": "https://www.hapare-shop.de"
+    }
+  ],
+  "smarthome": [
+    {
+      "id": 8,
+      "name": "Drinkstuff.com",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.drinkstuff.com"
+    },
+    {
+      "id": 307,
+      "name": "Cast In Style",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.castinstyle.co.uk"
+    },
+    {
+      "id": 550,
+      "name": "Firebox",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.firebox.com"
+    },
+    {
+      "id": 1202,
+      "name": "Iwantoneofthose.com UK",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://iwantoneofthose2.myshopify.com"
+    },
+    {
+      "id": 1281,
+      "name": "247 Blinds",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.247blinds.co.uk"
+    },
+    {
+      "id": 1292,
+      "name": "Nisbets plc UK",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.nisbets.co.uk"
+    },
+    {
+      "id": 1298,
+      "name": "Mattress Man",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.mattressman.co.uk"
+    },
+    {
+      "id": 1334,
+      "name": "Memory Foam Warehouse",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.memoryfoamwarehouse.co.uk"
+    },
+    {
+      "id": 1351,
+      "name": "Gardening Direct",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.gardeningdirect.co.uk"
+    },
+    {
+      "id": 1352,
+      "name": "Garden Bird",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.gardenbird.co.uk"
+    },
+    {
+      "id": 1531,
+      "name": "Lights4fun",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.lights4fun.co.uk"
+    },
+    {
+      "id": 1751,
+      "name": "Lakeland",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.lakeland.co.uk/"
+    },
+    {
+      "id": 1867,
+      "name": "Mattress Online",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.mattressonline.co.uk"
+    },
+    {
+      "id": 2252,
+      "name": "Terry's Fabrics",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.terrysfabrics.co.uk"
+    },
+    {
+      "id": 2283,
+      "name": "Thompson & Morgan",
+      "sector": "Home & Garden",
+      "region": "United Kingdom",
+      "url": "https://www.thompson-morgan.com"
+    }
+  ],
+  "aiproductivity": [
+    {
+      "id": 295,
+      "name": "Create",
+      "sector": "Web Hosting",
+      "region": "United Kingdom",
+      "url": "https://www.create.net"
+    },
+    {
+      "id": 1757,
+      "name": "UKHost4u",
+      "sector": "Web Hosting",
+      "region": "United Kingdom",
+      "url": "https://www.ukhost4u.com/"
+    },
+    {
+      "id": 7243,
+      "name": "Amen FR",
+      "sector": "Web Hosting",
+      "region": "France",
+      "url": "https://www.amen.fr/affiliates.html?PR=DAWI02"
+    },
+    {
+      "id": 11089,
+      "name": "Nominalia ES",
+      "sector": "Web Hosting",
+      "region": "Spain",
+      "url": "http://www.nominalia.com"
+    },
+    {
+      "id": 11457,
+      "name": "goneo DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.goneo.de"
+    },
+    {
+      "id": 11851,
+      "name": "checkdomain DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.checkdomain.de/"
+    },
+    {
+      "id": 11854,
+      "name": "webgo DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.webgo.de"
+    },
+    {
+      "id": 12649,
+      "name": "easyname DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.easyname.com/de"
+    },
+    {
+      "id": 13324,
+      "name": "O2switch Hebergement web FR",
+      "sector": "Web Hosting",
+      "region": "France",
+      "url": "https://www.o2switch.fr"
+    },
+    {
+      "id": 13841,
+      "name": "Zap-hosting DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://zap-hosting.com"
+    },
+    {
+      "id": 14380,
+      "name": "1blu DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.1blu.de"
+    },
+    {
+      "id": 14393,
+      "name": "webtropia.com DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://www.webtropia.com/"
+    },
+    {
+      "id": 15380,
+      "name": "PlanetHoster FR",
+      "sector": "Web Hosting",
+      "region": "France",
+      "url": "https://www.planethoster.fr"
+    },
+    {
+      "id": 16279,
+      "name": "Hostalia ES",
+      "sector": "Web Hosting",
+      "region": "Spain",
+      "url": "https://www.hostalia.com/"
+    },
+    {
+      "id": 16578,
+      "name": "servdiscount DE",
+      "sector": "Web Hosting",
+      "region": "Germany",
+      "url": "https://servdiscount.com/"
+    }
+  ]
+}

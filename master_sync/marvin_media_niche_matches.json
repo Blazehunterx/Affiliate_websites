@@ -1,0 +1,438 @@
+{
+  "saas": [],
+  "pet": [
+    {
+      "id": 2940,
+      "name": "Zooplus.co.uk",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=2940&awinaffid=1595486&clickref=marvin_pet"
+    },
+    {
+      "id": 8139,
+      "name": "Zooplus NL - BE",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=8139&awinaffid=1595486&clickref=marvin_pet"
+    },
+    {
+      "id": 11122,
+      "name": "zooplus ES",
+      "region": "Spain",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=11122&awinaffid=1595486&clickref=marvin_pet"
+    },
+    {
+      "id": 11330,
+      "name": "Zooplus DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=11330&awinaffid=1595486&clickref=marvin_pet"
+    },
+    {
+      "id": 12878,
+      "name": "Zooplus BE",
+      "region": "Belgium",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=12878&awinaffid=1595486&clickref=marvin_pet"
+    },
+    {
+      "id": 5855,
+      "name": "Denby Retail Ltd",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=5855&awinaffid=1595486&clickref=marvin_pet"
+    },
+    {
+      "id": 46149,
+      "name": "Lavish Alice Retail Ltd",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=46149&awinaffid=1595486&clickref=marvin_pet"
+    },
+    {
+      "id": 54305,
+      "name": "Cocktail Crates",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=54305&awinaffid=1595486&clickref=marvin_pet"
+    },
+    {
+      "id": 75682,
+      "name": "Farmfetch",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=75682&awinaffid=1595486&clickref=marvin_pet"
+    }
+  ],
+  "fintech": [
+    {
+      "id": 52419,
+      "name": "Beewise NL",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=52419&awinaffid=1595486&clickref=marvin_fintech"
+    },
+    {
+      "id": 107013,
+      "name": "Ecowise US",
+      "region": "United States of America",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=107013&awinaffid=1595486&clickref=marvin_fintech"
+    },
+    {
+      "id": 11353,
+      "name": "terracanis DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=11353&awinaffid=1595486&clickref=marvin_fintech"
+    },
+    {
+      "id": 14316,
+      "name": "MOSER Trachten DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=14316&awinaffid=1595486&clickref=marvin_fintech"
+    },
+    {
+      "id": 15314,
+      "name": "Podobrace NL",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=15314&awinaffid=1595486&clickref=marvin_fintech"
+    },
+    {
+      "id": 15315,
+      "name": "Podobrace BE",
+      "region": "Belgium",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=15315&awinaffid=1595486&clickref=marvin_fintech"
+    },
+    {
+      "id": 67694,
+      "name": "Grace & Stella",
+      "region": "United States of America",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=67694&awinaffid=1595486&clickref=marvin_fintech"
+    },
+    {
+      "id": 118063,
+      "name": "Araco Interiors",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=118063&awinaffid=1595486&clickref=marvin_fintech"
+    },
+    {
+      "id": 120441,
+      "name": "Milez Bracelets",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=120441&awinaffid=1595486&clickref=marvin_fintech"
+    },
+    {
+      "id": 28797,
+      "name": "Materials Market Trading UK Ltd",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=28797&awinaffid=1595486&clickref=marvin_fintech"
+    }
+  ],
+  "travel": [
+    {
+      "id": 21861,
+      "name": "InterGard tuinartikelen NL",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=21861&awinaffid=1595486&clickref=marvin_travel"
+    },
+    {
+      "id": 21928,
+      "name": "Van Kooten Tuin en Buiten Leven BE",
+      "region": "Belgium",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=21928&awinaffid=1595486&clickref=marvin_travel"
+    },
+    {
+      "id": 101669,
+      "name": "Tuinmeubelshop NL",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=101669&awinaffid=1595486&clickref=marvin_travel"
+    }
+  ],
+  "gaming": [
+    {
+      "id": 1736,
+      "name": "The Entertainer",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=1736&awinaffid=1595486&clickref=marvin_gaming"
+    },
+    {
+      "id": 12798,
+      "name": "G2A DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=12798&awinaffid=1595486&clickref=marvin_gaming"
+    },
+    {
+      "id": 15562,
+      "name": "G2A UK",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=15562&awinaffid=1595486&clickref=marvin_gaming"
+    },
+    {
+      "id": 13542,
+      "name": "gameserver DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=13542&awinaffid=1595486&clickref=marvin_gaming"
+    },
+    {
+      "id": 37282,
+      "name": "Game Over",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=37282&awinaffid=1595486&clickref=marvin_gaming"
+    },
+    {
+      "id": 106599,
+      "name": "Get a game FR",
+      "region": "France",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=106599&awinaffid=1595486&clickref=marvin_gaming"
+    },
+    {
+      "id": 20317,
+      "name": "Origins DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=20317&awinaffid=1595486&clickref=marvin_gaming"
+    },
+    {
+      "id": 68872,
+      "name": "Verpackungsteam DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=68872&awinaffid=1595486&clickref=marvin_gaming"
+    }
+  ],
+  "vpn": [
+    {
+      "id": 9399,
+      "name": "NordVPN DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=9399&awinaffid=1595486&clickref=marvin_vpn"
+    }
+  ],
+  "wfh": [
+    {
+      "id": 3326,
+      "name": "Ryman",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=3326&awinaffid=1595486&clickref=marvin_wfh"
+    },
+    {
+      "id": 17471,
+      "name": "Modellbau-Universe - die Adresse für Modellbau",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=17471&awinaffid=1595486&clickref=marvin_wfh"
+    },
+    {
+      "id": 19227,
+      "name": "JHP Fashion NL - BE",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=19227&awinaffid=1595486&clickref=marvin_wfh"
+    },
+    {
+      "id": 117989,
+      "name": "GtechPro",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=117989&awinaffid=1595486&clickref=marvin_wfh"
+    },
+    {
+      "id": 13737,
+      "name": "MacTrade - Apple Store DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=13737&awinaffid=1595486&clickref=marvin_wfh"
+    }
+  ],
+  "outdoor": [
+    {
+      "id": 15427,
+      "name": "Mountain Warehouse DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=15427&awinaffid=1595486&clickref=marvin_outdoor"
+    }
+  ],
+  "smarthome": [
+    {
+      "id": 797,
+      "name": "Appliance City",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=797&awinaffid=1595486&clickref=marvin_smarthome"
+    },
+    {
+      "id": 5238,
+      "name": "The Range",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=5238&awinaffid=1595486&clickref=marvin_smarthome"
+    },
+    {
+      "id": 26429,
+      "name": "Springer Nature Link Shop",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=26429&awinaffid=1595486&clickref=marvin_smarthome"
+    },
+    {
+      "id": 51765,
+      "name": "ClearanceXL Help during the cost of living crisis",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=51765&awinaffid=1595486&clickref=marvin_smarthome"
+    },
+    {
+      "id": 25407,
+      "name": "Handyhuellen DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=25407&awinaffid=1595486&clickref=marvin_smarthome"
+    },
+    {
+      "id": 124342,
+      "name": "HIVE NL - Familyblend",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=124342&awinaffid=1595486&clickref=marvin_smarthome"
+    },
+    {
+      "id": 16503,
+      "name": "Tado DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=16503&awinaffid=1595486&clickref=marvin_smarthome"
+    },
+    {
+      "id": 25066,
+      "name": "Tado NL-BE",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=25066&awinaffid=1595486&clickref=marvin_smarthome"
+    },
+    {
+      "id": 34689,
+      "name": "Arlo Security DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=34689&awinaffid=1595486&clickref=marvin_smarthome"
+    },
+    {
+      "id": 122884,
+      "name": "Arlo Security UK",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=122884&awinaffid=1595486&clickref=marvin_smarthome"
+    },
+    {
+      "id": 30761,
+      "name": "Ecovacs UK",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=30761&awinaffid=1595486&clickref=marvin_smarthome"
+    },
+    {
+      "id": 30763,
+      "name": "Ecovacs DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=30763&awinaffid=1595486&clickref=marvin_smarthome"
+    }
+  ],
+  "aiproductivity": [],
+  "fashion": [
+    {
+      "id": 16327,
+      "name": "Nike UK",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=16327&awinaffid=1595486&clickref=marvin_fashion"
+    },
+    {
+      "id": 16332,
+      "name": "Nike NL",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=16332&awinaffid=1595486&clickref=marvin_fashion"
+    },
+    {
+      "id": 16333,
+      "name": "Nike BE",
+      "region": "Belgium",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=16333&awinaffid=1595486&clickref=marvin_fashion"
+    },
+    {
+      "id": 77004,
+      "name": "adidas DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=77004&awinaffid=1595486&clickref=marvin_fashion"
+    },
+    {
+      "id": 77008,
+      "name": "adidas ES",
+      "region": "Spain",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=77008&awinaffid=1595486&clickref=marvin_fashion"
+    },
+    {
+      "id": 77016,
+      "name": "adidas NL",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=77016&awinaffid=1595486&clickref=marvin_fashion"
+    },
+    {
+      "id": 8383,
+      "name": "Lounge by Zalando BE",
+      "region": "Belgium",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=8383&awinaffid=1595486&clickref=marvin_fashion"
+    }
+  ],
+  "electronics": [
+    {
+      "id": 114540,
+      "name": "Moderne Raamdecoratie Groep",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=114540&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 8330,
+      "name": "Samsung NL",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=8330&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 9225,
+      "name": "Samsung BE",
+      "region": "Belgium",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=9225&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 14815,
+      "name": "Samsung Shop DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=14815&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 21707,
+      "name": "Samsung ES",
+      "region": "Spain",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=21707&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 17471,
+      "name": "Modellbau-Universe - die Adresse für Modellbau",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=17471&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 19227,
+      "name": "JHP Fashion NL - BE",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=19227&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 117989,
+      "name": "GtechPro",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=117989&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 12590,
+      "name": "Acer UK (Paused 25.3)",
+      "region": "United Kingdom",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=12590&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 12591,
+      "name": "Acer DE",
+      "region": "Germany",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=12591&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 17132,
+      "name": "Acer ES",
+      "region": "Spain",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=17132&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 17133,
+      "name": "Acer NL",
+      "region": "Netherlands",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=17133&awinaffid=1595486&clickref=marvin_electronics"
+    },
+    {
+      "id": 63342,
+      "name": "ACER BE",
+      "region": "Belgium",
+      "trackingUrl": "https://www.awin1.com/cread.php?awinmid=63342&awinaffid=1595486&clickref=marvin_electronics"
+    }
+  ]
+}

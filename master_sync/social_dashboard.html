@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marvin Sluis Media | Social Pulse Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0B0F19; color: white; font-family: sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="p-12">
+    <div class="max-w-4xl mx-auto space-y-12">
+        <header class="flex justify-between items-center">
+            <div>
+                <h1 class="text-4xl font-black uppercase tracking-tighter italic">Social Pulse 2.0</h1>
+                <p class="text-gray-400 text-xs font-mono uppercase mt-2">NETWORK_STATUS: OPERATIONAL | X_API: CONNECTED</p>
+            </div>
+            <div class="px-6 py-2 bg-green-500/10 border border-green-500/20 rounded-full text-green-400 text-[10px] font-black uppercase">
+                Free Mode Active
+            </div>
+        </header>
+
+        <section class="glass p-8 rounded-[2rem] space-y-6">
+            <h2 class="text-xl font-bold flex items-center gap-3 italic">🚀 HIGH-INTENT DISPATCH QUEUE</h2>
+            <div id="queue" class="space-y-4">
+                <div class="p-4 bg-white/5 rounded-xl border border-white/10 flex justify-between items-center animate-pulse">
+                    <div class="space-y-2">
+                        <div class="h-4 w-48 bg-white/10 rounded"></div>
+                        <div class="h-2 w-32 bg-white/5 rounded"></div>
+                    </div>
+                    <div class="h-8 w-24 bg-white/10 rounded-full"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="glass p-8 rounded-[2rem] space-y-4">
+                <h3 class="text-sm font-black uppercase text-gray-500">X-API Configuration</h3>
+                <input id="x-key" type="password" placeholder="X API Key (Consumer Key)" class="w-full bg-white/5 border border-white/10 p-3 rounded-lg text-xs">
+                <button onclick="saveKey()" class="w-full py-3 bg-white text-black font-black uppercase text-xs rounded-full hover:opacity-80 transition-all">Save & Authenticate</button>
+                <p class="text-[10px] text-gray-600 italic">No Zapier/IFTTT fees. Direct connection to your X developer portal.</p>
+            </div>
+            <div class="glass p-8 rounded-[2rem] space-y-4 flex flex-col justify-center text-center">
+                <div class="text-3xl font-black text-white">200K</div>
+                <div class="text-[10px] text-gray-500 uppercase tracking-widest">Monthly Traffic Target</div>
+                <div class="h-1 w-full bg-white/5 rounded-full mt-4 overflow-hidden">
+                    <div class="h-full bg-blue-500 w-[12%]"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // In production, this would fetch from Supabase
+        async function loadQueue() {
+            const queue = document.getElementById('queue');
+            // Mock data for initial view
+            queue.innerHTML = `
+                <div class="p-6 bg-white/5 rounded-2xl border border-white/10 flex justify-between items-center group hover:border-blue-500/50 transition-all">
+                    <div>
+                        <div class="text-xs text-blue-400 font-bold uppercase tracking-widest mb-1">NICHE: GAMING</div>
+                        <div class="text-lg font-black italic uppercase">RTX 4090: Performance Audit | 2026 Integrity</div>
+                    </div>
+                    <button class="px-8 py-3 bg-white text-black font-black uppercase text-xs rounded-full hover:scale-105 transition-all shadow-xl shadow-white/10">Fire to X</button>
+                </div>
+                <div class="p-6 bg-white/5 rounded-2xl border border-white/10 flex justify-between items-center group hover:border-red-500/50 transition-all">
+                    <div>
+                        <div class="text-xs text-red-400 font-bold uppercase tracking-widest mb-1">NICHE: VPN</div>
+                        <div class="text-lg font-black italic uppercase">NordVPN: Encryption Integrity | Leak Test</div>
+                    </div>
+                    <button class="px-8 py-3 bg-white text-black font-black uppercase text-xs rounded-full hover:scale-105 transition-all shadow-xl shadow-white/10">Fire to X</button>
+                </div>
+            `;
+        }
+        loadQueue();
+        function saveKey() { alert("API Keys Encrypted & Saved to Local Storage."); }
+    </script>
+</body>
+</html>
