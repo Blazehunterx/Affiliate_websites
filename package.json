@@ -1,6 +1,9 @@
-{
+﻿{
   "dependencies": {
     "@supabase/supabase-js": "^2.101.1",
     "axios": "^1.14.0"
+  },
+  "scripts": {
+    "build": "node sites/master_compiler.js && node sites/copy_to_dist.js"
   }
 }
