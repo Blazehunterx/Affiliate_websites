@@ -78,6 +78,34 @@ function getOptimalAffiliateUrl(niche, productName) {
   return `https://www.amazon.de/s?k=${encodeURIComponent(productName)}&tag=1710200006-20`;
 }
 
+async function getLiveAffiliateUrl(niche, productName) {
+  if (supabase) {
+    try {
+      const { data: partners, error } = await supabase
+        .from('affiliate_partners')
+        .select('name, tracking_url')
+        .eq('status', 'approved');
+
+      if (!error && partners) {
+        const nameLower = productName.toLowerCase();
+        const matched = partners.find(p => {
+          const pNameLower = p.name.toLowerCase();
+          return nameLower.includes(pNameLower) || pNameLower.includes(nameLower);
+        });
+
+        if (matched) {
+          console.log(`[MONETIZATION] Using Live Approved Partner Link for ${productName}: ${matched.name} -> ${matched.tracking_url}`);
+          return matched.tracking_url;
+        }
+      }
+    } catch (e) {
+      console.error("[MONETIZATION ERROR] Failed to fetch live partner links:", e.message);
+    }
+  }
+  return getOptimalAffiliateUrl(niche, productName);
+}
+
+
 
 const SUPABASE_URL = 'https://zaqkctlrvebulnbvirzl.supabase.co';
 const SUPABASE_SERVICE_ROLE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InphcWtjdGxydmVidWxuYnZpcnpsIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3Mjc2ODI1NiwiZXhwIjoyMDg4MzQ0MjU2fQ.NENzUeX60N4-U1OnUzG8s6J2efDyIZ_h6C-TtdK6Qjo'; 
@@ -160,7 +188,7 @@ async function generateEditorialAudit(niche, product) {
         title: title, 
         content: content, 
         image_url: img, 
-        affiliate_url: getOptimalAffiliateUrl(niche, product.name), 
+        affiliate_url: await getLiveAffiliateUrl(niche, product.name), 
         created_at: new Date().toISOString(),
         language: selectedLang,
         slug: slug,
@@ -184,7 +212,7 @@ async function runDailyDispatch() {
             let dispatch = await generateEditorialAudit(targetNiche, product);
             
             // --- PROACTIVE MONETIZATION ---
-            dispatch.affiliate_url = getOptimalAffiliateUrl(targetNiche, product.name);
+            dispatch.affiliate_url = await getLiveAffiliateUrl(targetNiche, product.name);
 
             if (supabase) {
                 const { error } = await supabase.from('hubs_content').insert([dispatch]);
