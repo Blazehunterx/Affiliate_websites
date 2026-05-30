@@ -160,6 +160,14 @@ async function runDailyDispatch() {
         execSync('git add master_sync', { cwd: rootDir, stdio: 'inherit' });
         execSync('git commit -m "auto: Daily dispatch update" || true', { cwd: rootDir, stdio: 'inherit' });
         execSync('git push', { cwd: rootDir, stdio: 'inherit' });
+
+        // Deploy directly to Cloudflare Pages via Wrangler (since marvinsluis-media uses direct upload)
+        console.log("[SYNC] Deploying marvinsluis-media directly to Cloudflare Pages via Wrangler...");
+        try {
+            execSync('npx wrangler pages deploy master_sync/dist --project-name=marvinsluis-media --branch=main --commit-dirty=true', { cwd: rootDir, stdio: 'inherit' });
+        } catch (err) {
+            console.error("[SYNC ERROR] Wrangler deploy failed: " + err.message);
+        }
         
         console.log("[SYSTEM] Search Dominance v3.0 - Fully Synced to Global Network via Git Push.");
     } catch (e) {
