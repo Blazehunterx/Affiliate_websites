@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Daily Dispatch Orchestrator v3.0 | High-Intent Affiliate Engine
  * Marvin Sluis Media Group | Search Dominance System
  */
@@ -73,7 +73,7 @@ function generateSlug(title) {
 }
 
 async function generateEditorialAudit(niche, product) {
-    console.log(`ðŸš€ [GENERATING] High-Intent Dispatch: ${product.name} (${niche.toUpperCase()})`);
+    console.log(`🚀 [GENERATING] High-Intent Dispatch: ${product.name} (${niche.toUpperCase()})`);
     
     const languages = ['en', 'de', 'nl'];
     const selectedLang = languages[Math.floor(Math.random() * languages.length)];
@@ -123,13 +123,13 @@ async function runDailyDispatch() {
             if (supabase) {
                 const { error } = await supabase.from('hubs_content').insert([dispatch]);
                 if (!error) {
-                    console.log(`âœ… [HIGH INTENT] ${product.name} Live at /audit/${dispatch.slug}`);
+                    console.log(`✅ [HIGH INTENT] ${product.name} Live at /audit/${dispatch.slug}`);
                     
                     // --- GOOGLE INDEXING PUSH ---
                     const fullUrl = `https://marvinsluis-media.pages.dev/audit/${dispatch.slug}`;
                     await forceIndexURL(fullUrl);
                 } else {
-                    console.error(`âŒ ${product.name}: ${error.message}`);
+                    console.error(`❌ ${product.name}: ${error.message}`);
                 }
             }
 
@@ -159,6 +159,14 @@ async function runDailyDispatch() {
         execSync('git add master_sync', { cwd: rootDir, stdio: 'inherit' });
         execSync('git commit -m "auto: Daily dispatch update" || true', { cwd: rootDir, stdio: 'inherit' });
         execSync('git push', { cwd: rootDir, stdio: 'inherit' });
+
+        // Deploy directly to Cloudflare Pages via Wrangler (since marvinsluis-media uses direct upload)
+        console.log("[SYNC] Deploying marvinsluis-media directly to Cloudflare Pages via Wrangler...");
+        try {
+            execSync('npx wrangler pages deploy master_sync/dist --project-name=marvinsluis-media --branch=main --commit-dirty=true', { cwd: rootDir, stdio: 'inherit' });
+        } catch (err) {
+            console.error("[SYNC ERROR] Wrangler deploy failed: " + err.message);
+        }
         
         console.log("[SYSTEM] Search Dominance v3.0 - Fully Synced to Global Network via Git Push.");
     } catch (e) {
@@ -167,14 +175,14 @@ async function runDailyDispatch() {
 }
 
 async function startAutonomousEngine() {
-    console.log("ðŸ’Ž [AUTONOMOUS MODE] Marvin Media Shopping OS: ENGAGED.");
+    console.log("💎 [AUTONOMOUS MODE] Marvin Media Shopping OS: ENGAGED.");
     while (true) {
         try {
             await runDailyDispatch();
-            console.log("\nðŸ’¤ [SLEEP] Dispatch cycle complete. Next run in 4 hours...");
+            console.log("\n💤 [SLEEP] Dispatch cycle complete. Next run in 4 hours...");
             await new Promise(resolve => setTimeout(resolve, 4 * 60 * 60 * 1000));
         } catch (e) {
-            console.error("ðŸ”¥ [CRITICAL ERROR] Engine failure: " + e.message);
+            console.error("🔥 [CRITICAL ERROR] Engine failure: " + e.message);
             await new Promise(resolve => setTimeout(resolve, 60000)); // Retry in 1 min
         }
     }
