@@ -8,7 +8,6 @@
 
 const fs = require('fs');
 const { createClient } = require('@supabase/supabase-js');
-const { prepareSocialPost } = require('./social_pulse_x');
 
 // --- Configuration ---
 const SUPABASE_URL = 'https://zaqkctlrvebulnbvirzl.supabase.co';
@@ -62,8 +61,7 @@ async function processAlerts() {
             console.warn(`[SKIP] Supabase client not initialized (missing keys). Alert prepared but not deployed.`);
         }
 
-        // Prepare social signal
-        await prepareSocialPost(alertDispatch);
+        
     }
 }
 

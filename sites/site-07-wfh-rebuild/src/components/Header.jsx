@@ -1,31 +1,36 @@
 import React from 'react';
-import { Home, Monitor, Coffee, Layout } from 'lucide-react';
+import { Gamepad2, Search, User } from 'lucide-react';
 
 const Header = () => {
   return (
-    <nav className="fixed top-0 z-50 w-full bg-[#FAF9F6]/80 backdrop-blur-lg border-b border-[#E5E5E0]">
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <div className="w-9 h-9 bg-stone-800 rounded-lg flex items-center justify-center">
-            <Layout className="text-[#FAF9F6] w-5 h-5" />
-          </div>
-          <div className="flex flex-col">
-            <span className="text-lg font-black tracking-tighter text-stone-800 leading-none uppercase">WFH GEAR HUB</span>
-            <span className="text-[10px] font-bold text-stone-400 uppercase tracking-widest mt-1">Design Your Sanctuary</span>
-          </div>
+    <nav className="sticky top-0 z-50 w-full bg-[#0B0F19]/80 backdrop-blur-md border-b border-gray-800">
+      <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <Gamepad2 className="text-purple-500 w-8 h-8" />
+          <span className="text-xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+            GAME DEALS HUB
+          </span>
         </div>
 
-        <div className="hidden md:flex items-center gap-10 text-[10px] font-black text-stone-500 uppercase tracking-widest">
-          <a href="#gear" className="hover:text-stone-800 transition-colors">Ergo Chairs</a>
-          <a href="#gear" className="hover:text-stone-800 transition-colors">Standing Desks</a>
-          <a href="#gear" className="hover:text-stone-800 transition-colors">Lighting</a>
-          <a href="#gear" className="hover:text-stone-800 transition-colors">Workspace Tours</a>
+        <div className="hidden md:flex items-center gap-8 text-sm text-gray-400">
+          <a href="#deals" className="hover:text-white transition-colors">PC Games</a>
+          <a href="#deals" className="hover:text-white transition-colors">PlayStation</a>
+          <a href="#deals" className="hover:text-white transition-colors">Xbox</a>
+          <a href="#deals" className="hover:text-white transition-colors">Nintendo</a>
         </div>
 
-        <div className="flex items-center gap-6">
-          <div className="hidden sm:flex items-center gap-2 group cursor-pointer border-l border-stone-200 pl-6 ml-6">
-             <div className="w-8 h-8 rounded-full bg-stone-200 flex items-center justify-center font-black text-xs text-stone-600">M</div>
-             <span className="text-sm font-bold text-stone-800">Marvin</span>
+        <div className="flex items-center gap-4">
+          <div className="relative hidden sm:block">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" />
+            <input 
+              type="text" 
+              placeholder="Search games..." 
+              className="bg-gray-900 border border-gray-800 rounded-full py-2 pl-10 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 w-64"
+            />
+          </div>
+          <div className="flex items-center gap-2 text-sm font-medium border-l border-gray-800 pl-4 ml-4">
+            <User className="w-4 h-4 text-purple-500" />
+            <span>Marvin</span>
           </div>
         </div>
       </div>

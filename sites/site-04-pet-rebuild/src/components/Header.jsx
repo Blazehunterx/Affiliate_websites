@@ -1,35 +1,37 @@
 import React from 'react';
-import { Heart, Search, Bell, User } from 'lucide-react';
+import { Gamepad2, Search, User } from 'lucide-react';
 
 const Header = () => {
   return (
-    <nav className="fixed top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-blue-50">
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+    <nav className="sticky top-0 z-50 w-full bg-[#0B0F19]/80 backdrop-blur-md border-b border-gray-800">
+      <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-blue-500 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/20">
-            <Heart className="text-white w-6 h-6 fill-current" />
-          </div>
-          <div className="flex flex-col">
-            <span className="text-lg font-black tracking-tight text-slate-800 leading-none">PET CARE HUB</span>
-            <span className="text-[10px] font-bold text-blue-400 uppercase tracking-widest mt-1">Tech for Happy Pets</span>
-          </div>
+          <Gamepad2 className="text-purple-500 w-8 h-8" />
+          <span className="text-xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+            GAME DEALS HUB
+          </span>
         </div>
 
-        <div className="hidden md:flex items-center gap-8 text-sm font-bold text-slate-500">
-          <a href="#products" className="hover:text-blue-500 transition-colors">GPS Trackers</a>
-          <a href="#products" className="hover:text-blue-500 transition-colors">Smart Feeders</a>
-          <a href="#products" className="hover:text-blue-500 transition-colors">Health Monitors</a>
-          <a href="#products" className="hover:text-blue-500 transition-colors">Compare All</a>
+        <div className="hidden md:flex items-center gap-8 text-sm text-gray-400">
+          <a href="#deals" className="hover:text-white transition-colors">PC Games</a>
+          <a href="#deals" className="hover:text-white transition-colors">PlayStation</a>
+          <a href="#deals" className="hover:text-white transition-colors">Xbox</a>
+          <a href="#deals" className="hover:text-white transition-colors">Nintendo</a>
         </div>
 
         <div className="flex items-center gap-4">
-          <div className="hidden sm:flex items-center gap-2 pr-4 border-r border-slate-100">
-             <div className="w-8 h-8 rounded-full bg-yellow-400 flex items-center justify-center font-black text-xs text-white">M</div>
-             <span className="text-sm font-bold text-slate-700">Marvin</span>
+          <div className="relative hidden sm:block">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" />
+            <input 
+              type="text" 
+              placeholder="Search games..." 
+              className="bg-gray-900 border border-gray-800 rounded-full py-2 pl-10 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 w-64"
+            />
           </div>
-          <button className="bg-slate-100 p-2 rounded-xl hover:bg-slate-200 transition-colors">
-            <Search className="w-5 h-5 text-slate-500" />
-          </button>
+          <div className="flex items-center gap-2 text-sm font-medium border-l border-gray-800 pl-4 ml-4">
+            <User className="w-4 h-4 text-purple-500" />
+            <span>Marvin</span>
+          </div>
         </div>
       </div>
     </nav>

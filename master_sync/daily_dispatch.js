@@ -5,7 +5,6 @@
 
 const fs = require('fs');
 const { createClient } = require('@supabase/supabase-js');
-// const { prepareSocialPost } = require('./social_pulse_x');
 const { postPin } = require('./pinterest_auto_pilot');
 const { forceIndexURL } = require('./google_indexer');
 const { PRODUCT_MATRIX } = require('./product_matrix');
@@ -281,7 +280,6 @@ async function runDailyDispatch() {
             }
 
             // Social Pulse Disabled (Trial Status)
-            // await prepareSocialPost(dispatch);
             await postPin(dispatch);
             await new Promise(r => setTimeout(r, 100)); // Velocity Boost
         }

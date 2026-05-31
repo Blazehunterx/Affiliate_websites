@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AuditDetail from './components/AuditDetail';
+import MarvinIntentEngine from './components/MarvinIntentEngine';
+import NetworkMesh from './components/NetworkMesh';
 
 function MainDashboard({ filter, setFilter, loading, games, niche }) {
   return (
@@ -48,12 +50,20 @@ function MainDashboard({ filter, setFilter, loading, games, niche }) {
       </section>
 
       <Magazine niche={niche} />
+      <NetworkMesh currentNiche={niche} />
     </main>
   );
 }
 
 function App() {
-  const niche = "electronics";
+  const niche = "Electronics";
+  const primaryColor = "#f97316";
+  
+  
+  
+  
+  
+  
   const [filter, setFilter] = React.useState('all');
   const [games, setGames] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
@@ -74,6 +84,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="bg-[#0B0F19] min-h-screen font-sans selection:bg-purple-500/30">
+        <MarvinIntentEngine primaryColor={primaryColor} niche={niche} />
         <Routes>
           <Route path="/" element={
             <>

@@ -65,4 +65,21 @@ for (const niche of niches) {
     }
 }
 
+// 4. Copy tools folder from sites/site-00-agency-hub/tools to dist/tools
+const srcToolsDir = path.join(__dirname, 'site-00-agency-hub', 'tools');
+const dstToolsDir = path.join(DIST, 'tools');
+if (fs.existsSync(srcToolsDir)) {
+    try {
+        if (fs.existsSync(dstToolsDir)) {
+            fs.rmSync(dstToolsDir, { recursive: true, force: true });
+        }
+        fs.cpSync(srcToolsDir, dstToolsDir, { recursive: true });
+        console.log("Copied tools directory to dist");
+    } catch (e) {
+        console.error(`Error copying tools directory to dist: ${e.message}`);
+    }
+} else {
+    console.log(`Tools source directory not found: ${srcToolsDir}`);
+}
+
 console.log("Replication complete!");

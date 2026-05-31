@@ -1,31 +1,36 @@
 import React from 'react';
-import { Trees, MapPin, Search, Calendar } from 'lucide-react';
+import { Gamepad2, Search, User } from 'lucide-react';
 
 const Header = () => {
   return (
-    <nav className="fixed top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-[#E5E7EB]">
-      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <Trees className="text-[#3A5A40] w-9 h-9" />
-          <div className="flex flex-col">
-            <span className="text-xl font-black tracking-tighter text-[#344E41]">HOLIDAY EXPLORER</span>
-            <span className="text-[10px] font-bold text-[#A3B18A] uppercase tracking-widest">Premium NL Parks</span>
+    <nav className="sticky top-0 z-50 w-full bg-[#0B0F19]/80 backdrop-blur-md border-b border-gray-800">
+      <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <Gamepad2 className="text-purple-500 w-8 h-8" />
+          <span className="text-xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+            GAME DEALS HUB
+          </span>
+        </div>
+
+        <div className="hidden md:flex items-center gap-8 text-sm text-gray-400">
+          <a href="#deals" className="hover:text-white transition-colors">PC Games</a>
+          <a href="#deals" className="hover:text-white transition-colors">PlayStation</a>
+          <a href="#deals" className="hover:text-white transition-colors">Xbox</a>
+          <a href="#deals" className="hover:text-white transition-colors">Nintendo</a>
+        </div>
+
+        <div className="flex items-center gap-4">
+          <div className="relative hidden sm:block">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" />
+            <input 
+              type="text" 
+              placeholder="Search games..." 
+              className="bg-gray-900 border border-gray-800 rounded-full py-2 pl-10 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 w-64"
+            />
           </div>
-        </div>
-
-        <div className="hidden lg:flex items-center gap-10 text-sm font-semibold text-gray-600">
-          <a href="#parks" className="hover:text-[#344E41] transition-colors">Coastal Parks</a>
-          <a href="#parks" className="hover:text-[#344E41] transition-colors">Forest Lodges</a>
-          <a href="#parks" className="hover:text-[#344E41] transition-colors">Subtropical Pools</a>
-          <a href="#parks" className="hover:text-[#344E41] transition-colors">Last Minute</a>
-        </div>
-
-        <div className="flex items-center gap-6">
-          <div className="hidden sm:flex items-center gap-2 group cursor-pointer">
-            <div className="w-10 h-10 rounded-full border-2 border-[#DAD7CD] flex items-center justify-center group-hover:border-[#344E41] transition-colors overflow-hidden">
-               <span className="text-sm font-black text-[#344E41]">M</span>
-            </div>
-            <span className="text-sm font-bold text-[#344E41]">Marvin</span>
+          <div className="flex items-center gap-2 text-sm font-medium border-l border-gray-800 pl-4 ml-4">
+            <User className="w-4 h-4 text-purple-500" />
+            <span>Marvin</span>
           </div>
         </div>
       </div>

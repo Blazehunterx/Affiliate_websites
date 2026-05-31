@@ -5,7 +5,23 @@ import { Link } from 'react-router-dom';
 
 export const Magazine = ({ niche }) => {
     const [articles, setArticles] = useState([]);
+    const [recommendation, setRecommendation] = useState(null);
     const [loading, setLoading] = useState(true);
+
+    const RELEVANCE_MATRIX = {
+        gaming: 'vpn',
+        saas: 'aiproductivity',
+        travel: 'pet',
+        pet: 'outdoor',
+        fintech: 'saas',
+        vpn: 'electronics',
+        wfh: 'smarthome',
+        outdoor: 'travel',
+        smarthome: 'electronics',
+        aiproductivity: 'fintech',
+        fashion: 'electronics',
+        electronics: 'gaming'
+    };
 
     const logEvent = async (type, artTitle = 'general') => {
         try {
@@ -36,6 +52,18 @@ export const Magazine = ({ niche }) => {
                 setArticles(data);
                 logEvent('page_view', niche);
                 
+                // Fetch Trust Mesh Recommendation
+                const targetNiche = RELEVANCE_MATRIX[niche] || 'saas';
+                const { data: recData } = await supabase
+                    .from('hubs_content')
+                    .select('*')
+                    .eq('niche', targetNiche)
+                    .eq('language', urlLang)
+                    .gte('total_score', 9.5)
+                    .limit(1);
+                
+                if (recData && recData[0]) setRecommendation(recData[0]);
+
                 // --- SEO INJECTION ---
                 const latest = data[0];
                 document.title = `${latest.title} | ${niche.toUpperCase()} Hub 2026`;
@@ -71,6 +99,16 @@ export const Magazine = ({ niche }) => {
             setLoading(false);
         };
         fetchArticles();
+
+        // --- PINTEREST SDK INJECTION ---
+        if (!document.getElementById('pinit-sdk')) {
+            const pinScript = document.createElement('script');
+            pinScript.id = 'pinit-sdk';
+            pinScript.async = true;
+            pinScript.defer = true;
+            pinScript.src = "https://assets.pinterest.com/js/pinit.js";
+            document.head.appendChild(pinScript);
+        }
     }, [niche]);
 
     if (loading) return (
@@ -137,7 +175,7 @@ export const Magazine = ({ niche }) => {
                                                 <span className="uppercase font-black text-[10px] tracking-[1em] pl-[1em]">Audit Asset</span>
                                             </div>
                                         )}
-                                        <div className="absolute top-8 left-8 flex flex-wrap gap-2">
+                                        <div className="absolute top-8 left-8 flex flex-wrap gap-2 z-20">
                                             <div className="px-4 py-2 bg-black/80 backdrop-blur-md text-white rounded-full text-[10px] font-black uppercase tracking-widest border border-white/10">
                                                 Audited 2026
                                             </div>
@@ -149,6 +187,19 @@ export const Magazine = ({ niche }) => {
                                                     🔥 Live Deal Detected (-{article.drop_percentage}%)
                                                 </div>
                                             )}
+                                        </div>
+
+                                        {/* PINTEREST HOVER OVERLAY */}
+                                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-500 flex items-center justify-center opacity-0 group-hover:opacity-100 z-10">
+                                            <a 
+                                                href={`https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent('https://marvinsluis-media.pages.dev/audit/' + article.slug)}&media=${encodeURIComponent(article.image_url)}&description=${encodeURIComponent(article.title)}`}
+                                                data-pin-do="buttonPin"
+                                                data-pin-custom="true"
+                                                style={{ cursor: 'pointer' }}
+                                                className="w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center shadow-2xl transform scale-50 group-hover:scale-100 transition-all duration-500 hover:bg-red-500"
+                                            >
+                                                <svg viewBox="0 0 24 24" className="w-8 h-8 fill-current"><path d="M12.289 2C6.617 2 2 6.617 2 12.289c0 4.305 2.607 8.01 6.385 9.613-.093-.81-.174-2.055.034-2.938.19-.795 1.229-5.211 1.229-5.211s-.313-.626-.313-1.552c0-1.454.843-2.54 1.892-2.54.893 0 1.324.671 1.324 1.477 0 .898-.572 2.241-.866 3.485-.247 1.04.52 1.886 1.546 1.886 1.855 0 3.282-1.957 3.282-4.78 0-2.499-1.796-4.248-4.362-4.248-2.973 0-4.718 2.23-4.718 4.533 0 .898.345 1.86.776 2.382.085.106.097.199.072.305-.08.327-.255 1.037-.29 1.18-.046.185-.148.225-.341.136-1.272-.592-2.067-2.45-2.067-3.943 0-3.21 2.333-6.155 6.721-6.155 3.528 0 6.27 2.514 6.27 5.874 0 3.504-2.21 6.326-5.275 6.326-1.03 0-2.001-.536-2.333-1.168 0 0-.51 1.942-.633 2.417-.229.878-.85 1.984-1.266 2.658 1.02.314 2.1.484 3.219.484 5.671 0 10.289-4.618 10.289-10.289C22.578 6.617 17.96 2 12.289 2z"/></svg>
+                                            </a>
                                         </div>
                                     </div>
 
@@ -200,6 +251,16 @@ export const Magazine = ({ niche }) => {
                                             </Link>
                                             
                                             <a 
+                                                href={`https://wa.me/?text=${encodeURIComponent('🚀 Exclusive [MARVIN MEDIA] Tech Audit: ' + article.title + ' | Full Report: https://marvinsluis-media.pages.dev/audit/' + article.slug)}`}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="group/btn relative inline-flex items-center gap-4 h-20 px-8 bg-green-500 text-white rounded-full font-black text-sm uppercase tracking-[0.2em] transition-all hover:bg-green-400 active:scale-95 shadow-2xl shadow-green-500/20"
+                                            >
+                                                <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current"><path d="M12.031 2c-5.506 0-9.989 4.478-9.99 9.984a9.965 9.965 0 001.333 4.993L2 22l5.135-1.348a9.932 9.932 0 004.887 1.28c5.53 0 10.003-4.477 10.003-9.983A9.998 9.998 0 0012.031 2zm5.735 14.41c-.243.688-1.209 1.254-1.663 1.332-.455.078-.9-.001-2.91-1.055-2.051-.815-3.313-2.799-3.416-2.935-.102-.136-.826-1.108-.826-2.115 0-1.007.527-1.503.714-1.714.186-.21.409-.263.546-.263.137 0 .272.001.387.006.121.005.286-.046.448.337l.634 1.517c.058.14.116.303.023.491-.092.188-.139.303-.277.464-.139.161-.291.278-.415.421-.125.143-.255.291-.11.53.146.24.646 1.053 1.385 1.705.953.84 1.758 1.101 2.012 1.228.254.128.403.106.554-.066.152-.173.647-.751.819-1.007.172-.255.344-.214.58-.127l1.72.843c.236.116.393.19.45.286.056.096.056.553-.187 1.241z"/></svg>
+                                                Share to WhatsApp
+                                            </a>
+                                            
+                                            <a 
                                                 href={article.affiliate_url} 
                                                 target="_blank" 
                                                 rel="noopener noreferrer" 
@@ -209,6 +270,32 @@ export const Magazine = ({ niche }) => {
                                                 <ExternalLink className="w-4 h-4" /> Acquire via Partner
                                             </a>
                                         </div>
+
+                                        {/* --- BEHAVIORAL TRUST MESH: CROSS-HUB RECOMMENDATION --- */}
+                                        {recommendation && (
+                                            <div className="mt-16 group/mesh block p-10 bg-purple-500/5 dark:bg-white/5 border border-purple-500/20 dark:border-white/10 rounded-[2rem] hover:bg-purple-500/10 transition-all duration-500">
+                                                <div className="flex flex-col md:flex-row items-center gap-10">
+                                                    <div className="w-full md:w-32 h-32 flex-shrink-0 overflow-hidden rounded-2xl border border-purple-500/20">
+                                                        <img src={recommendation.image_url} alt={recommendation.title} className="w-full h-full object-cover" />
+                                                    </div>
+                                                    <div className="flex-1 space-y-4 text-center md:text-left">
+                                                        <div className="inline-flex items-center gap-2 px-3 py-1 bg-purple-500 text-white rounded-full text-[8px] font-black uppercase tracking-widest">
+                                                            <Sparkles className="w-2 h-2 fill-current" /> Expert Recommendation
+                                                        </div>
+                                                        <h4 className="text-xl font-black text-gray-900 dark:text-white leading-tight">
+                                                            Secure your setup with this <span className="text-purple-500 italic uppercase">{RELEVANCE_MATRIX[niche]}</span> audit for {recommendation.title.split(':')[0]}.
+                                                        </h4>
+                                                        <Link 
+                                                            to={`/audit/${recommendation.slug}`}
+                                                            onClick={() => logEvent('mesh_click', recommendation.title)}
+                                                            className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-purple-400 hover:text-purple-300 transition-colors"
+                                                        >
+                                                            Open Companion Audit <ChevronRight className="w-3 h-3" />
+                                                        </Link>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                             </div>

@@ -1,30 +1,36 @@
 import React from 'react';
-import { Box, Command, Search, ShieldCheck } from 'lucide-react';
+import { Gamepad2, Search, User } from 'lucide-react';
 
 const Header = () => {
   return (
-    <nav className="fixed top-0 z-50 w-full bg-white/70 backdrop-blur-xl border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+    <nav className="sticky top-0 z-50 w-full bg-[#0B0F19]/80 backdrop-blur-md border-b border-gray-800">
+      <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center">
-            <Command className="text-white w-5 h-5" />
-          </div>
-          <span className="text-lg font-bold tracking-tight text-gray-900">SAAS HUB</span>
+          <Gamepad2 className="text-purple-500 w-8 h-8" />
+          <span className="text-xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+            GAME DEALS HUB
+          </span>
         </div>
 
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-500">
-          <a href="#comparison" className="hover:text-black transition-colors">AI Tools</a>
-          <a href="#features" className="hover:text-black transition-colors">Automation</a>
-          <a href="#comparison" className="hover:text-black transition-colors">Comparison</a>
+        <div className="hidden md:flex items-center gap-8 text-sm text-gray-400">
+          <a href="#deals" className="hover:text-white transition-colors">PC Games</a>
+          <a href="#deals" className="hover:text-white transition-colors">PlayStation</a>
+          <a href="#deals" className="hover:text-white transition-colors">Xbox</a>
+          <a href="#deals" className="hover:text-white transition-colors">Nintendo</a>
         </div>
 
-        <div className="flex items-center gap-6">
-          <div className="hidden sm:flex items-center gap-2 text-xs font-semibold text-green-600 bg-green-50 px-3 py-1.5 rounded-full border border-green-100">
-            <ShieldCheck className="w-3.5 h-3.5" />
-            PARTNER VERIFIED
+        <div className="flex items-center gap-4">
+          <div className="relative hidden sm:block">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" />
+            <input 
+              type="text" 
+              placeholder="Search games..." 
+              className="bg-gray-900 border border-gray-800 rounded-full py-2 pl-10 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500/50 w-64"
+            />
           </div>
-          <div className="text-sm font-bold text-gray-900 border-l border-gray-200 pl-6">
-            Marvin
+          <div className="flex items-center gap-2 text-sm font-medium border-l border-gray-800 pl-4 ml-4">
+            <User className="w-4 h-4 text-purple-500" />
+            <span>Marvin</span>
           </div>
         </div>
       </div>
