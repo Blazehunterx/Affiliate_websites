@@ -1,3 +1,4 @@
+const fs = require('fs');
 const { createClient } = require('@supabase/supabase-js');
 const { execSync } = require('child_process');
 const path = require('path');
@@ -22,6 +23,44 @@ const rules = {
 };
 
 const fallbackNiches = ['saas', 'electronics', 'wfh', 'gaming', 'fashion', 'travel'];
+
+
+function checkReviewExists(niche, title) {
+    const slugBase = title.toLowerCase()
+        .replace(/ /g, '-')
+        .replace(/[^\w-]+/g, '')
+        .replace(/--+/g, '-')
+        .replace(/^-+/, '')
+        .replace(/-+$/, '');
+        
+    const routes = {
+        saas: 'saas',
+        gaming: 'gaming',
+        travel: 'travel',
+        pet: 'pet',
+        fintech: 'fintech',
+        vpn: 'vpn',
+        wfh: 'wfh',
+        outdoor: 'outdoor',
+        smarthome: 'smarthome',
+        aiproductivity: 'aiproductivity',
+        fashion: 'fashion',
+        electronics: 'electronics'
+    };
+    const route = routes[niche];
+    if (!route) return false;
+    
+    const auditDir = path.join(__dirname, '..', '..', 'master_sync', route, 'audit');
+    if (!fs.existsSync(auditDir)) return false;
+    
+    try {
+        const dirs = fs.readdirSync(auditDir);
+        return dirs.some(d => d.toLowerCase().startsWith(slugBase.toLowerCase()));
+    } catch (e) {
+        console.error("Error reading audit dir:", e.message);
+        return false;
+    }
+}
 
 function classify(name) {
     const n = name.toLowerCase();
@@ -117,25 +156,8 @@ async function run() {
     
     console.log(`Found ${partners.length} approved partners. Fetching existing reviews...`);
     
-    // 2. Fetch existing reviews to prevent duplicates using batched IN queries
-    const titlesToCheck = partners.map(p => `${p.name}: Technical Integrity Review | 2026 Market Audit`);
-    const existingTitles = new Set();
-    const batchSize = 100;
-    for (let i = 0; i < titlesToCheck.length; i += batchSize) {
-        const batch = titlesToCheck.slice(i, i + batchSize);
-        const { data: existing, error: eError } = await sb
-            .from('hubs_content')
-            .select('title')
-            .in('title', batch);
-            
-        if (eError) {
-            console.error("Error fetching existing reviews:", eError.message);
-            return;
-        }
-        if (existing) {
-            existing.forEach(e => existingTitles.add(e.title.toLowerCase()));
-        }
-    }
+    // 2. Local filesystem-based check for existing reviews to prevent duplicates
+    console.log("Checking filesystem for existing reviews...");
     
     let injected = 0;
     
@@ -144,7 +166,7 @@ async function run() {
         const niche = classify(name);
         const title = `${name}: Technical Integrity Review | 2026 Market Audit`;
         
-        if (existingTitles.has(title.toLowerCase())) {
+        if (checkReviewExists(niche, title)) {
             continue;
         }
         
