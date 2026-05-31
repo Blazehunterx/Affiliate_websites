@@ -117,17 +117,25 @@ async function run() {
     
     console.log(`Found ${partners.length} approved partners. Fetching existing reviews...`);
     
-    // 2. Fetch existing reviews to prevent duplicates
-    const { data: existing, error: eError } = await sb
-        .from('hubs_content')
-        .select('title');
-        
-    if (eError) {
-        console.error("Error fetching existing reviews:", eError.message);
-        return;
+    // 2. Fetch existing reviews to prevent duplicates using batched IN queries
+    const titlesToCheck = partners.map(p => `${p.name}: Technical Integrity Review | 2026 Market Audit`);
+    const existingTitles = new Set();
+    const batchSize = 100;
+    for (let i = 0; i < titlesToCheck.length; i += batchSize) {
+        const batch = titlesToCheck.slice(i, i + batchSize);
+        const { data: existing, error: eError } = await sb
+            .from('hubs_content')
+            .select('title')
+            .in('title', batch);
+            
+        if (eError) {
+            console.error("Error fetching existing reviews:", eError.message);
+            return;
+        }
+        if (existing) {
+            existing.forEach(e => existingTitles.add(e.title.toLowerCase()));
+        }
     }
-    
-    const existingTitles = new Set(existing ? existing.map(e => e.title.toLowerCase()) : []);
     
     let injected = 0;
     
