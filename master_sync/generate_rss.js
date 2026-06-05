@@ -34,8 +34,7 @@ function cleanMarkdown(md) {
 
 async function generateRssFeeds() {
     console.log("Generating RSS Feeds for all hubs...");
-    const distPath = path.join(__dirname, 'dist');
-    if (!fs.existsSync(distPath)) fs.mkdirSync(distPath);
+    const distPath = __dirname;
 
     for (const hub of HUBS) {
         const hubDir = path.join(distPath, hub.route);
