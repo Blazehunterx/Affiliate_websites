@@ -296,6 +296,9 @@ async function runDailyDispatch() {
         // Compile new reviews
         execSync('node ../ssg_prerender.js', { cwd: __dirname, stdio: 'inherit' });
         
+        // Generate RSS Feeds
+        execSync('node ../../master_sync/generate_rss.js', { cwd: __dirname, stdio: 'inherit' });
+        
         // Replicate to dist
         execSync('node ../copy_to_dist.js', { cwd: __dirname, stdio: 'inherit' });
         
