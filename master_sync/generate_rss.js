@@ -77,12 +77,13 @@ async function generateRssFeeds() {
             }
         }
 
+        const cleanHubName = hub.name.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
         const rssXml = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
-    <title>Marvin Sluis Media Group - ${hub.name}</title>
+    <title>Marvin Sluis Media Group - ${cleanHubName}</title>
     <link>https://marvinsluis-media.pages.dev/${hub.route}/</link>
-    <description>Technical Integrity Reviews and audits for ${hub.name}</description>
+    <description>Technical Integrity Reviews and audits for ${cleanHubName}</description>
     <language>en</language>
     <lastBuildDate>${buildDate}</lastBuildDate>${itemsXml}
 </channel>
