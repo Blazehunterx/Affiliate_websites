@@ -23,7 +23,7 @@ if (!PINTEREST_TOKEN) {
     }
 }
 
-const BASE_URL = 'https://api-sandbox.pinterest.com/v5';
+const BASE_URL = 'https://api.pinterest.com/v5';
 
 const BOARD_MAPPING = {
     gaming: 'Top Gaming Deals 2026',

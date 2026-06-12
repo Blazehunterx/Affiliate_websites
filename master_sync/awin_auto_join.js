@@ -4,7 +4,7 @@ const path = require('path');
 
 const API_CONFIG = {
     token: '6975f078-a13b-4265-b772-76b99ea46fd6',
-    publisherId: '2834344'
+    publisherId: '1595486'
 };
 
 const MATCH_FILE = path.join(__dirname, 'awin_matches_by_hub.json');

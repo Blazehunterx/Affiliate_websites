@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const API_KEY = '6975f078-a13b-4265-b772-76b99ea46fd6';
-const PUB_ID = '2834344';
+const PUB_ID = '1595486';
 
 async function fetchProgramStatuses() {
     console.log("📡 Fetching Awin Program Statuses (Native Fetch)...");

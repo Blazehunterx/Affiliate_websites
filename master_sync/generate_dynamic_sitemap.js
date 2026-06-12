@@ -1,9 +1,10 @@
+require('../load_env');
 const fs = require('fs');
 const { createClient } = require('@supabase/supabase-js');
 
 // --- Configuration ---
-const SB_URL = 'https://zaqkctlrvebulnbvirzl.supabase.co';
-const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InphcWtjdGxydmVidWxuYnZpcnpsIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3Mjc2ODI1NiwiZXhwIjoyMDg4MzQ0MjU2fQ.NENzUeX60N4-U1OnUzG8s6J2efDyIZ_h6C-TtdK6Qjo'; 
+const SB_URL = 'https://nrthkusyewvdcjkiihmy.supabase.co';
+const SB_KEY = 'sb_secret_jmHkejYmB9DogpRu-STqlA_9aaMqOem'; 
 
 const HUSB_MAP = {
     'gaming': 'https://marvinsluis-media.pages.dev/gaming',

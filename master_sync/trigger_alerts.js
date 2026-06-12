@@ -10,7 +10,7 @@ const fs = require('fs');
 const { createClient } = require('@supabase/supabase-js');
 
 // --- Configuration ---
-const SUPABASE_URL = 'https://zaqkctlrvebulnbvirzl.supabase.co';
+const SUPABASE_URL = 'https://nrthkusyewvdcjkiihmy.supabase.co';
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY; 
 const DROP_THRESHOLD = 5.0; // Minimum 5% drop to trigger an alert
 

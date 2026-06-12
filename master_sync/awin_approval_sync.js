@@ -1,11 +1,12 @@
+require('../load_env');
 const axios = require('axios');
 const { createClient } = require('@supabase/supabase-js');
 require('dotenv').config();
 
 const AWIN_API_KEY = process.env.AWIN_API_KEY || '6975f078-a13b-4265-b772-76b99ea46fd6';
 const AWIN_PUBLISHER_ID = '1692233'; // Marvin's Publisher ID
-const SUPABASE_URL = 'https://zaqkctlrvebulnbvirzl.supabase.co';
-const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InphcWtjdGxydmVidWxuYnZpcnpsIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3Mjc2ODI1NiwiZXhwIjoyMDg4MzQ0MjU2fQ.NENzUeX60N4-U1OnUzG8s6J2efDyIZ_h6C-TtdK6Qjo';
+const SUPABASE_URL = 'https://nrthkusyewvdcjkiihmy.supabase.co';
+const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || 'sb_secret_jmHkejYmB9DogpRu-STqlA_9aaMqOem';
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
 
