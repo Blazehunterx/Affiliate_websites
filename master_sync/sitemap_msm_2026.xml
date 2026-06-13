@@ -48,6 +48,10 @@
   <url><loc>https://marvinsluis-media.pages.dev/electronics/en/</loc><priority>0.8</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/electronics/de/</loc><priority>0.8</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/electronics/nl/</loc><priority>0.8</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/gaming/nl/audit/logitech-g-pro-x-superlight-2-price-drop-technical-integrity-2026-4eg5</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/gaming/de/audit/elden-ring-shadow-of-the-erdtree-price-comparison-technical-integrity-2026-l042</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/gaming/de/audit/steam-deck-oled-value-check-technical-integrity-2026-iiu6</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/gaming/de/audit/nvidia-rtx-4090-integrity-check-technical-integrity-2026-3uwr</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/gaming/de/audit/logitech-g-pro-x-superlight-2-click-latency-audit-technical-integrity-2026-t2v5</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/gaming/nl/audit/elden-ring-shadow-of-the-erdtree-price-comparison-technical-integrity-2026-6e31</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/gaming/audit/steam-deck-oled-hardware-audit-technical-integrity-2026-9vf6</loc><priority>0.6</priority></url>
@@ -68,6 +72,9 @@
   <url><loc>https://marvinsluis-media.pages.dev/gaming/audit/elden-ring-shadow-of-the-erdtree-digital-key-integrity-technical-integrity-2026-a3px</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/gaming/audit/steam-deck-oled-value-check-technical-integrity-2026-8hcd</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/gaming/audit/nvidia-rtx-4090-price-tracking-technical-integrity-2026-fwiw</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/saas/de/audit/canva-pro-asset-value-audit-technical-integrity-2026-ywtg</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/saas/de/audit/shopify-e-commerce-integrity-technical-integrity-2026-22h4</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/saas/audit/jasper-ai-seo-generation-utility-technical-integrity-2026-tz8n</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/saas/audit/canva-pro-workflow-speed-technical-integrity-2026-4phz</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/saas/de/audit/shopify-infrastructure-scalability-technical-integrity-2026-joxz</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/saas/nl/audit/jasper-ai-seo-generation-utility-technical-integrity-2026-sc1a</loc><priority>0.6</priority></url>
@@ -83,6 +90,9 @@
   <url><loc>https://marvinsluis-media.pages.dev/saas/de/audit/canva-pro-workflow-speed-technical-integrity-2026-ug1j</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/saas/audit/shopify-infrastructure-scalability-technical-integrity-2026-wtpr</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/saas/de/audit/jasper-ai-enterprise-value-technical-integrity-2026-ujop</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/vpn/nl/audit/expressvpn-server-node-analysis-technical-integrity-2026-on0q</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/vpn/audit/surfshark-price-to-value-technical-integrity-2026-4k7v</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/vpn/audit/nordvpn-2026-review-technical-integrity-2026-18vk</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/vpn/audit/expressvpn-privacy-audit-technical-integrity-2026-pg3y</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/vpn/audit/surfshark-multi-device-infrastructure-technical-integrity-2026-2byi</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/vpn/nl/audit/nordvpn-encryption-integrity-technical-integrity-2026-ooq3</loc><priority>0.6</priority></url>
@@ -98,6 +108,8 @@
   <url><loc>https://marvinsluis-media.pages.dev/vpn/nl/audit/expressvpn-server-node-analysis-technical-integrity-2026-gjjo</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/vpn/nl/audit/surfshark-price-to-value-technical-integrity-2026-ehs5</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/vpn/nl/audit/nordvpn-encryption-integrity-technical-integrity-2026-2mbw</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/travel/audit/airbnb-luxe-villa-verification-technical-integrity-2026-57dt</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/travel/nl/audit/bookingcom-genius-reservation-integrity-technical-integrity-2026-fi2j</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/travel/de/audit/airbnb-luxe-security-audit-technical-integrity-2026-zn0g</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/travel/nl/audit/bookingcom-genius-reservation-integrity-technical-integrity-2026-klgc</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/travel/nl/audit/airbnb-luxe-security-audit-technical-integrity-2026-ngf3</loc><priority>0.6</priority></url>
@@ -108,6 +120,8 @@
   <url><loc>https://marvinsluis-media.pages.dev/travel/nl/audit/bookingcom-genius-price-parity-check-technical-integrity-2026-00h2</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/travel/audit/airbnb-luxe-villa-verification-technical-integrity-2026-hlyi</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/travel/de/audit/bookingcom-genius-reservation-integrity-technical-integrity-2026-tmq6</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/pet/audit/blue-buffalo-life-protection-ingredient-transparency-technical-integrity-2026-pmoi</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/pet/nl/audit/furbo-360-dog-camera-smart-features-audit-technical-integrity-2026-bx9t</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/pet/de/audit/blue-buffalo-life-protection-ingredient-transparency-technical-integrity-2026-e6y9</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/pet/nl/audit/furbo-360-dog-camera-smart-features-audit-technical-integrity-2026-ynh8</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/pet/nl/audit/blue-buffalo-life-protection-ingredient-transparency-technical-integrity-2026-79w3</loc><priority>0.6</priority></url>
@@ -118,6 +132,8 @@
   <url><loc>https://marvinsluis-media.pages.dev/pet/audit/furbo-360-dog-camera-connectivity-integrity-technical-integrity-2026-ycnc</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/pet/nl/audit/blue-buffalo-life-protection-ingredient-transparency-technical-integrity-2026-l0kr</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/pet/audit/furbo-360-dog-camera-connectivity-integrity-technical-integrity-2026-nf0g</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/fintech/de/audit/wise-business-speed-verification-technical-integrity-2026-mrbj</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/fintech/nl/audit/revolut-metal-transaction-integrity-technical-integrity-2026-8774</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/fintech/nl/audit/wise-business-speed-verification-technical-integrity-2026-pnf5</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/fintech/audit/revolut-metal-fee-transparency-audit-technical-integrity-2026-ai3i</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/fintech/audit/wise-business-exchange-parity-technical-integrity-2026-7tpm</loc><priority>0.6</priority></url>
@@ -128,6 +144,8 @@
   <url><loc>https://marvinsluis-media.pages.dev/fintech/de/audit/revolut-metal-fee-transparency-audit-technical-integrity-2026-vnb5</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/fintech/nl/audit/wise-business-exchange-parity-technical-integrity-2026-7u2a</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/fintech/nl/audit/revolut-metal-fee-transparency-audit-technical-integrity-2026-uxj4</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/wfh/audit/apple-studio-display-color-accuracy-audit-technical-integrity-2026-7r2t</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/wfh/nl/audit/herman-miller-aeron-lifecycle-value-technical-integrity-2026-nv8n</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/wfh/audit/apple-studio-display-color-accuracy-audit-technical-integrity-2026-0p3s</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/wfh/de/audit/herman-miller-aeron-ergonomic-infrastructure-technical-integrity-2026-q4lx</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/wfh/nl/audit/apple-studio-display-integrity-check-technical-integrity-2026-h7bu</loc><priority>0.6</priority></url>
@@ -138,6 +156,8 @@
   <url><loc>https://marvinsluis-media.pages.dev/wfh/audit/herman-miller-aeron-ergonomic-infrastructure-technical-integrity-2026-xfnc</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/wfh/audit/apple-studio-display-color-accuracy-audit-technical-integrity-2026-jsbx</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/wfh/nl/audit/herman-miller-aeron-ergonomic-infrastructure-technical-integrity-2026-pahg</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/outdoor/nl/audit/yeti-tundra-45-thermal-retention-check-technical-integrity-2026-7pp0</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/outdoor/de/audit/garmin-fenix-7-pro-gps-precision-audit-technical-integrity-2026-92ap</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/outdoor/nl/audit/yeti-tundra-45-thermal-retention-check-technical-integrity-2026-quab</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/outdoor/audit/garmin-fenix-7-pro-battery-integrity-technical-integrity-2026-prix</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/outdoor/de/audit/yeti-tundra-45-durability-value-technical-integrity-2026-rzt7</loc><priority>0.6</priority></url>
@@ -148,6 +168,8 @@
   <url><loc>https://marvinsluis-media.pages.dev/outdoor/audit/garmin-fenix-7-pro-battery-integrity-technical-integrity-2026-dfxa</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/outdoor/nl/audit/yeti-tundra-45-durability-value-technical-integrity-2026-wx8y</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/outdoor/de/audit/garmin-fenix-7-pro-gps-precision-audit-technical-integrity-2026-jddd</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/smarthome/de/audit/ring-video-doorbell-pro-2-security-integrity-technical-integrity-2026-61g6</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/smarthome/de/audit/philips-hue-bridge-latency-audit-technical-integrity-2026-nk2y</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/smarthome/nl/audit/ring-video-doorbell-pro-2-night-vision-check-technical-integrity-2026-4q8k</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/smarthome/audit/philips-hue-bridge-ecosystem-connectivity-technical-integrity-2026-22mm</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/smarthome/nl/audit/ring-video-doorbell-pro-2-night-vision-check-technical-integrity-2026-bnqw</loc><priority>0.6</priority></url>
@@ -158,6 +180,8 @@
   <url><loc>https://marvinsluis-media.pages.dev/smarthome/de/audit/philips-hue-bridge-ecosystem-connectivity-technical-integrity-2026-yxjf</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/smarthome/audit/ring-video-doorbell-pro-2-night-vision-check-technical-integrity-2026-a9gv</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/smarthome/nl/audit/philips-hue-bridge-ecosystem-connectivity-technical-integrity-2026-0v9s</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/aiproductivity/de/audit/notion-ai-knowledge-graph-integrity-technical-integrity-2026-j4ne</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/aiproductivity/de/audit/gohighlevel-automation-integrity-technical-integrity-2026-ottf</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/aiproductivity/audit/notion-ai-knowledge-graph-integrity-technical-integrity-2026-o4tk</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/aiproductivity/nl/audit/gohighlevel-crm-infrastructure-technical-integrity-2026-zasz</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/aiproductivity/nl/audit/notion-ai-knowledge-graph-integrity-technical-integrity-2026-4dd9</loc><priority>0.6</priority></url>
@@ -168,6 +192,8 @@
   <url><loc>https://marvinsluis-media.pages.dev/aiproductivity/de/audit/gohighlevel-crm-infrastructure-technical-integrity-2026-ff98</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/aiproductivity/audit/notion-ai-utility-audit-technical-integrity-2026-cjil</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/aiproductivity/audit/gohighlevel-crm-infrastructure-technical-integrity-2026-oaz2</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/fashion/audit/patagonia-torrentshell-sustainable-value-technical-integrity-2026-sg7y</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/fashion/audit/nike-air-max-2026-market-scarcity-technical-integrity-2026-jfzf</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/fashion/audit/patagonia-torrentshell-sustainable-value-technical-integrity-2026-gfof</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/fashion/audit/nike-air-max-2026-authenticity-audit-technical-integrity-2026-ifi5</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/fashion/audit/patagonia-torrentshell-sustainable-value-technical-integrity-2026-yfyi</loc><priority>0.6</priority></url>
@@ -182,6 +208,8 @@
   <url><loc>https://marvinsluis-media.pages.dev/fashion/nl/audit/nike-air-max-2026-market-scarcity-technical-integrity-2026-m6qd</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/fashion/de/audit/patagonia-torrentshell-durability-integrity-technical-integrity-2026-dwtl</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/fashion/nl/audit/nike-air-max-2026-authenticity-audit-technical-integrity-2026-p3xt</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/electronics/nl/audit/sony-wh-1000xm5-audio-fidelity-audit-technical-integrity-2026-7c5z</loc><priority>0.6</priority></url>
+  <url><loc>https://marvinsluis-media.pages.dev/electronics/de/audit/iphone-16-pro-max-depreciation-curve-technical-integrity-2026-29tg</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/electronics/nl/audit/sony-wh-1000xm5-audio-fidelity-audit-technical-integrity-2026-bn19</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/electronics/de/audit/iphone-16-pro-max-depreciation-curve-technical-integrity-2026-dr67</loc><priority>0.6</priority></url>
   <url><loc>https://marvinsluis-media.pages.dev/electronics/de/audit/sony-wh-1000xm5-audio-fidelity-audit-technical-integrity-2026-woh5</loc><priority>0.6</priority></url>
