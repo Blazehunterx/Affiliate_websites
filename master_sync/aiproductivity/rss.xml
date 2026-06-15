@@ -5,7 +5,23 @@
     <link>https://marvinsluis-media.pages.dev/aiproductivity/</link>
     <description>Technical Integrity Reviews and audits for AI Productivity</description>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2026 03:59:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 08:01:26 GMT</lastBuildDate>
+        <item>
+            <title>Notion AI: Knowledge Graph Integrity | Technical Integrity 2026</title>
+            <link>https://marvinsluis-media.pages.dev/aiproductivity/audit/notion-ai-knowledge-graph-integrity-technical-integrity-2026-ci63/</link>
+            <description><![CDATA[### 1. API Responsiveness &amp; Compute Performance  Our performance probes monitored the response latency of Notion AI endpoints over 72 hours. Average API response times sat at 120ms, with a 99.99% uptime profile.  - Integration Overhead: Very low, fits cleanly into standard enterprise CI/CD loops...]]></description>
+            <pubDate>Mon, 15 Jun 2026 08:01:04 GMT</pubDate>
+            <guid>https://marvinsluis-media.pages.dev/aiproductivity/audit/notion-ai-knowledge-graph-integrity-technical-integrity-2026-ci63/</guid>
+            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
+        </item>
+        <item>
+            <title>GoHighLevel: CRM Infrastructure | Technical Integrity 2026</title>
+            <link>https://marvinsluis-media.pages.dev/aiproductivity/audit/gohighlevel-crm-infrastructure-technical-integrity-2026-hdmb/</link>
+            <description><![CDATA[### 1. API Responsiveness &amp; Compute Performance  Our performance probes monitored the response latency of GoHighLevel endpoints over 72 hours. Average API response times sat at 120ms, with a 99.99% uptime profile.  - Integration Overhead: Very low, fits cleanly into standard enterprise CI/CD loo...]]></description>
+            <pubDate>Mon, 15 Jun 2026 08:01:02 GMT</pubDate>
+            <guid>https://marvinsluis-media.pages.dev/aiproductivity/audit/gohighlevel-crm-infrastructure-technical-integrity-2026-hdmb/</guid>
+            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
+        </item>
         <item>
             <title>Notion AI: Knowledge Graph Integrity | Technical Integrity 2026</title>
             <link>https://marvinsluis-media.pages.dev/aiproductivity/audit/notion-ai-knowledge-graph-integrity-technical-integrity-2026-g05f/</link>
