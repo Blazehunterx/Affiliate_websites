@@ -5,7 +5,23 @@
     <link>https://marvinsluis-media.pages.dev/aiproductivity/</link>
     <description>Technical Integrity Reviews and audits for AI Productivity</description>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 04:55:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 08:57:03 GMT</lastBuildDate>
+        <item>
+            <title>Notion AI: Knowledge Graph Integrity | Technical Integrity 2026</title>
+            <link>https://marvinsluis-media.pages.dev/aiproductivity/audit/notion-ai-knowledge-graph-integrity-technical-integrity-2026-se8u/</link>
+            <description><![CDATA[### 1. API Responsiveness &amp; Compute Performance  Our performance probes monitored the response latency of Notion AI endpoints over 72 hours. Average API response times sat at 120ms, with a 99.99% uptime profile.  - Integration Overhead: Very low, fits cleanly into standard enterprise CI/CD loops...]]></description>
+            <pubDate>Tue, 16 Jun 2026 08:55:46 GMT</pubDate>
+            <guid>https://marvinsluis-media.pages.dev/aiproductivity/audit/notion-ai-knowledge-graph-integrity-technical-integrity-2026-se8u/</guid>
+            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
+        </item>
+        <item>
+            <title>GoHighLevel: Automation Integrity | Technical Integrity 2026</title>
+            <link>https://marvinsluis-media.pages.dev/aiproductivity/audit/gohighlevel-automation-integrity-technical-integrity-2026-ss52/</link>
+            <description><![CDATA[### 1. API Responsiveness &amp; Compute Performance  Our performance probes monitored the response latency of GoHighLevel endpoints over 72 hours. Average API response times sat at 120ms, with a 99.99% uptime profile.  - Integration Overhead: Very low, fits cleanly into standard enterprise CI/CD loo...]]></description>
+            <pubDate>Tue, 16 Jun 2026 08:55:42 GMT</pubDate>
+            <guid>https://marvinsluis-media.pages.dev/aiproductivity/audit/gohighlevel-automation-integrity-technical-integrity-2026-ss52/</guid>
+            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
+        </item>
         <item>
             <title>Notion AI: Utility Audit | Technical Integrity 2026</title>
             <link>https://marvinsluis-media.pages.dev/aiproductivity/audit/notion-ai-utility-audit-technical-integrity-2026-ct7v/</link>
@@ -228,22 +244,6 @@
             <description><![CDATA[### 1. API Responsiveness &amp; Compute Performance  Our performance probes monitored the response latency of GoHighLevel endpoints over 72 hours. Average API response times sat at 120ms, with a 99.99% uptime profile.  - Integration Overhead: Very low, fits cleanly into standard enterprise CI/CD loo...]]></description>
             <pubDate>Fri, 12 Jun 2026 16:36:10 GMT</pubDate>
             <guid>https://marvinsluis-media.pages.dev/aiproductivity/audit/gohighlevel-crm-infrastructure-technical-integrity-2026-zasz/</guid>
-            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
-        </item>
-        <item>
-            <title>Notion AI: Knowledge Graph Integrity | Technical Integrity 2026</title>
-            <link>https://marvinsluis-media.pages.dev/aiproductivity/audit/notion-ai-knowledge-graph-integrity-technical-integrity-2026-4dd9/</link>
-            <description><![CDATA[### 1. API Responsiveness &amp; Compute Performance  Our performance probes monitored the response latency of Notion AI endpoints over 72 hours. Average API response times sat at 120ms, with a 99.99% uptime profile.  - Integration Overhead: Very low, fits cleanly into standard enterprise CI/CD loops...]]></description>
-            <pubDate>Fri, 12 Jun 2026 12:33:54 GMT</pubDate>
-            <guid>https://marvinsluis-media.pages.dev/aiproductivity/audit/notion-ai-knowledge-graph-integrity-technical-integrity-2026-4dd9/</guid>
-            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
-        </item>
-        <item>
-            <title>GoHighLevel: Automation Integrity | Technical Integrity 2026</title>
-            <link>https://marvinsluis-media.pages.dev/aiproductivity/audit/gohighlevel-automation-integrity-technical-integrity-2026-y4sm/</link>
-            <description><![CDATA[### 1. API Responsiveness &amp; Compute Performance  Our performance probes monitored the response latency of GoHighLevel endpoints over 72 hours. Average API response times sat at 120ms, with a 99.99% uptime profile.  - Integration Overhead: Very low, fits cleanly into standard enterprise CI/CD loo...]]></description>
-            <pubDate>Fri, 12 Jun 2026 12:33:51 GMT</pubDate>
-            <guid>https://marvinsluis-media.pages.dev/aiproductivity/audit/gohighlevel-automation-integrity-technical-integrity-2026-y4sm/</guid>
             <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
         </item>
 </channel>

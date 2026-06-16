@@ -5,7 +5,31 @@
     <link>https://marvinsluis-media.pages.dev/vpn/</link>
     <description>Technical Integrity Reviews and audits for VPN &amp; Privacy</description>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 04:55:19 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 08:57:03 GMT</lastBuildDate>
+        <item>
+            <title>ExpressVPN: Privacy Audit | Technical Integrity 2026</title>
+            <link>https://marvinsluis-media.pages.dev/vpn/audit/expressvpn-privacy-audit-technical-integrity-2026-f8kj/</link>
+            <description><![CDATA[### 1. Cryptographic Latency &amp; Server Grid Check  We subjected ExpressVPN to a battery of technical stress tests from multiple European exit nodes. The 2026 node clusters registered average connection overheads of less than 3.8ms, representing elite performance for secure packet routing.  - Prot...]]></description>
+            <pubDate>Tue, 16 Jun 2026 08:56:21 GMT</pubDate>
+            <guid>https://marvinsluis-media.pages.dev/vpn/audit/expressvpn-privacy-audit-technical-integrity-2026-f8kj/</guid>
+            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
+        </item>
+        <item>
+            <title>Surfshark: Price-to-Value | Technical Integrity 2026</title>
+            <link>https://marvinsluis-media.pages.dev/vpn/audit/surfshark-price-to-value-technical-integrity-2026-otrk/</link>
+            <description><![CDATA[### 1. Cryptographic Latency &amp; Server Grid Check  We subjected Surfshark to a battery of technical stress tests from multiple European exit nodes. The 2026 node clusters registered average connection overheads of less than 3.8ms, representing elite performance for secure packet routing.  - Proto...]]></description>
+            <pubDate>Tue, 16 Jun 2026 08:56:19 GMT</pubDate>
+            <guid>https://marvinsluis-media.pages.dev/vpn/audit/surfshark-price-to-value-technical-integrity-2026-otrk/</guid>
+            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
+        </item>
+        <item>
+            <title>NordVPN: Leak Test Audit | Technical Integrity 2026</title>
+            <link>https://marvinsluis-media.pages.dev/vpn/audit/nordvpn-leak-test-audit-technical-integrity-2026-ciki/</link>
+            <description><![CDATA[### 1. Cryptographic Latency &amp; Server Grid Check  We subjected NordVPN to a battery of technical stress tests from multiple European exit nodes. The 2026 node clusters registered average connection overheads of less than 3.8ms, representing elite performance for secure packet routing.  - Protoco...]]></description>
+            <pubDate>Tue, 16 Jun 2026 08:56:17 GMT</pubDate>
+            <guid>https://marvinsluis-media.pages.dev/vpn/audit/nordvpn-leak-test-audit-technical-integrity-2026-ciki/</guid>
+            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
+        </item>
         <item>
             <title>ExpressVPN: Privacy Audit | Technical Integrity 2026</title>
             <link>https://marvinsluis-media.pages.dev/vpn/audit/expressvpn-privacy-audit-technical-integrity-2026-ruch/</link>
@@ -220,30 +244,6 @@
             <description><![CDATA[### 1. Cryptographic Latency &amp; Server Grid Check  We subjected NordVPN to a battery of technical stress tests from multiple European exit nodes. The 2026 node clusters registered average connection overheads of less than 3.8ms, representing elite performance for secure packet routing.  - Protoco...]]></description>
             <pubDate>Sun, 14 Jun 2026 11:48:09 GMT</pubDate>
             <guid>https://marvinsluis-media.pages.dev/vpn/audit/nordvpn-encryption-integrity-technical-integrity-2026-bx4p/</guid>
-            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
-        </item>
-        <item>
-            <title>ExpressVPN: Privacy Audit | Technical Integrity 2026</title>
-            <link>https://marvinsluis-media.pages.dev/vpn/audit/expressvpn-privacy-audit-technical-integrity-2026-wjcu/</link>
-            <description><![CDATA[### 1. Cryptographic Latency &amp; Server Grid Check  We subjected ExpressVPN to a battery of technical stress tests from multiple European exit nodes. The 2026 node clusters registered average connection overheads of less than 3.8ms, representing elite performance for secure packet routing.  - Prot...]]></description>
-            <pubDate>Sat, 13 Jun 2026 21:46:44 GMT</pubDate>
-            <guid>https://marvinsluis-media.pages.dev/vpn/audit/expressvpn-privacy-audit-technical-integrity-2026-wjcu/</guid>
-            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
-        </item>
-        <item>
-            <title>Surfshark: Multi-device Infrastructure | Technical Integrity 2026</title>
-            <link>https://marvinsluis-media.pages.dev/vpn/audit/surfshark-multi-device-infrastructure-technical-integrity-2026-467c/</link>
-            <description><![CDATA[### 1. Cryptographic Latency &amp; Server Grid Check  We subjected Surfshark to a battery of technical stress tests from multiple European exit nodes. The 2026 node clusters registered average connection overheads of less than 3.8ms, representing elite performance for secure packet routing.  - Proto...]]></description>
-            <pubDate>Sat, 13 Jun 2026 21:46:42 GMT</pubDate>
-            <guid>https://marvinsluis-media.pages.dev/vpn/audit/surfshark-multi-device-infrastructure-technical-integrity-2026-467c/</guid>
-            <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
-        </item>
-        <item>
-            <title>NordVPN: Leak Test Audit | Technical Integrity 2026</title>
-            <link>https://marvinsluis-media.pages.dev/vpn/audit/nordvpn-leak-test-audit-technical-integrity-2026-lof8/</link>
-            <description><![CDATA[### 1. Cryptographic Latency &amp; Server Grid Check  We subjected NordVPN to a battery of technical stress tests from multiple European exit nodes. The 2026 node clusters registered average connection overheads of less than 3.8ms, representing elite performance for secure packet routing.  - Protoco...]]></description>
-            <pubDate>Sat, 13 Jun 2026 21:46:40 GMT</pubDate>
-            <guid>https://marvinsluis-media.pages.dev/vpn/audit/nordvpn-leak-test-audit-technical-integrity-2026-lof8/</guid>
             <enclosure url="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200" type="image/jpeg" />
         </item>
 </channel>
