@@ -82,4 +82,31 @@ if (fs.existsSync(srcToolsDir)) {
     console.log(`Tools source directory not found: ${srcToolsDir}`);
 }
 
+// 5. Also copy audit pages to sites/site-00-agency-hub/dist (deployment target)
+const SITE_DIST = path.join(__dirname, 'site-00-agency-hub', 'dist');
+const EXCLUDE = ['dist', 'tools'];
+const allNiches = fs.readdirSync(MASTER_SYNC).filter(d => {
+    const full = path.join(MASTER_SYNC, d);
+    return fs.statSync(full).isDirectory() && !EXCLUDE.includes(d);
+});
+let auditCount = 0;
+for (const niche of allNiches) {
+    const auditDir = path.join(MASTER_SYNC, niche, 'audit');
+    if (!fs.existsSync(auditDir)) continue;
+    const slugs = fs.readdirSync(auditDir).filter(s => fs.statSync(path.join(auditDir, s)).isDirectory());
+    for (const slug of slugs) {
+        const src = path.join(auditDir, slug, 'index.html');
+        const dstDir = path.join(SITE_DIST, niche, 'audit', slug);
+        const dst = path.join(dstDir, 'index.html');
+        if (fs.existsSync(src)) {
+            fs.mkdirSync(dstDir, { recursive: true });
+            fs.copyFileSync(src, dst);
+            auditCount++;
+        }
+    }
+}
+if (auditCount > 0) {
+    console.log(`Copied ${auditCount} pre-rendered audit pages to sites/${path.basename(path.dirname(SITE_DIST))}/dist`);
+}
+
 console.log("Replication complete!");
