@@ -4,6 +4,11 @@
     "axios": "^1.14.0"
   },
   "scripts": {
-    "build": "node sites/copy_to_dist.js"
+    "build": "node sites/copy_to_dist.js",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.102.0"
   }
 }
