@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "affiliatewebsites",
+  "compatibility_date": "2026-06-18",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "master_sync"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
